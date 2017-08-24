@@ -1,7 +1,7 @@
 # SharePoint-2.x-Connector
 Brightcove Connector for SharePoint 2013/2016 On-premise, SharePoint 2016 Online (Office 365)
 
-#License
+# License
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 
