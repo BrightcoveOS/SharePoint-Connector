@@ -1,246 +1,335 @@
 .picklist.selected {
-    display:none;
-    }
+    display: none;
+}
+
 
 /* Picklist styles */
-.picklist, .picklistControls
-{
-    float:left;
-    vertical-align:middle;
+
+.picklist,
+.picklistControls {
+    float: left;
+    vertical-align: middle;
 }
 
-.picklist .content
-{
+.picklist .content {
     /*width:208px;*/
-    width:450px;
-    height:250px;
-    overflow-x:hidden;
-    overflow-y:scroll;
-	border:1px solid silver;
+    width: 528px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid silver;
 }
 
-.picklist .videosAvailable
-{
-	/*height:250px;*/
-    overflow-x:hidden;
+.picklist .videosAvailable {
+    /*height:250px;*/
+    overflow-x: hidden;
 }
-    
-.picklist .content .item
-{
-    width:437px;
-    height:35px;
-    vertical-align:middle;
-    clear:both;
-    border-bottom:1px solid silver;
-    padding-top:5px;
-    padding-bottom:5px;
-    cursor:pointer;
+
+.picklist .content .item {
+    width: 527px;
+    height: 35px;
+    vertical-align: middle;
+    clear: both;
+    border-bottom: 1px solid silver;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
 }
-    
-.videoName
-{
-    font-weight:bold;
-    color:#000000;
+
+.videoName {
+    font-weight: bold;
+    color: #000000;
     overflow: hidden;
 }
-    
-.videoId
-{
-    color:Gray;
+
+.videoId {
+    color: Gray;
 }
 
-.videoCheckbox
-{
-    width:25px;
-    float:left;
-    display:none;
-}
-    
-.videoThumb
-{
-    width:40px;
-    float:left;
-    margin-right:5px;
-    margin-left:5px;
+.videoCheckbox {
+    width: 25px;
+    float: left;
+    display: none;
 }
 
-.videoMetadata
-{
-    width:367px;
-    float:left;
-    text-wrap:none;
-    overflow-x:hidden;
+.videoThumb {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.videoMetadata .videoName
-{
-    display:inline-block;
-    width:367px;
-    height:15px;
-    text-wrap:none;
-    overflow-x:hidden;
+.videoMetadata {
+    width: 367px;
+    float: left;
+    text-wrap: none;
+    overflow-x: hidden;
+}
+
+.videoMetadata .videoName {
+    display: inline-block;
+    width: 367px;
+    height: 15px;
+    text-wrap: none;
+    overflow-x: hidden;
     white-space: nowrap;
 }
-    
-.videoThumb img
-{
-    max-width:40px;
-    max-height:30px;
+
+.videoThumb img {
+    max-width: 40px;
+    max-height: 30px;
 }
 
-.picklistControls
-{
-    display:none;
-	margin-top:80px;
-	width:100px;
-	text-align:center;
+.picklistControls {
+    display: none;
+    margin-top: 80px;
+    width: 100px;
+    text-align: center;
 }
 
-
-.picklistControls button
-{
-    margin-bottom:10px;
-    width:80px;
-    padding-left:2px;
-    padding-right:2px;
+.picklistControls button {
+    margin-bottom: 10px;
+    width: 80px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-#divBrightCovePlayer{ margin-top:8px}
-#divBrightCoveWidth{ margin-top:8px}
-#divBrightCoveHeight{ margin-top:8px}
-#divAccount{ margin-top:8px}
-
-.picklistControls .controlSection
-{
-    display:none;
-	margin-bottom:8px;
+#divBrightcovePlayer {
+    margin-top: 8px
 }
 
-.searchBox
-{
-    margin-bottom:5px;
+#divBrightcoveFolder {
+    margin-top: 8px
 }
 
-.searchBox input
-{
-	/*width:181px;*/
-	width:223px;
+#divBrightcoveWidth {
+    margin-top: 8px
 }
 
-.searchBox button
-{
-	width:25px;
-	background-image:url(/_layouts/images/gosearch15.png);
-    min-width:  1px;
+#divBrightcoveHeight {
+    margin-top: 8px
+}
+
+#divBrightcoveThumbnails {
+    margin-top: 8px
+}
+
+#divBrightcoveAutoplayInput {
+    /*margin-top: 8px*/
+}
+
+#divBrightcoveMutedInput {
+    /*margin-top: 8px*/
+}
+#divBrightcoveSizingFixed {
+    /*margin-top: 8px*/
+}
+
+#divBrightcoveSizingResponsive {
+    /*margin-top: 8px*/
+}
+
+#divAccount {
+    margin-top: 8px
+}
+
+.disabled_radio {
+   color: darkgrey;
+   /*background-color: grey;*/
+}
+
+.disabled_input {
+   color: darkgrey;
+   background-color: grey;
+}
+
+.picklistControls .controlSection {
+    display: none;
+    margin-bottom: 8px;
+}
+
+.divBrightcoveItemLimit {
+    width: 20px;
+}
+
+.searchBox {
+    margin-bottom: 5px;
+}
+
+.searchBox input {
+    /*width:181px;*/
+    width: 223px;
+}
+
+.searchBox button {
+    width: 25px;
+    background-image: url(/_layouts/images/gosearch15.png);
+    min-width: 1px;
     padding: 1px;
 }
 
-.searchBox button, .searchBox input
-{
-	margin:0 0 0 0;
-	border:none;
-	border:1px solid silver;
+.searchBox button,
+.searchBox input {
+    margin: 0 0 0 0;
+    border: none;
+    border: 1px solid silver;
 }
 
-.searchBox_default_text
-{
-	font-style:italic;
-	color:silver;
+.searchBox_default_text {
+    font-style: italic;
+    color: silver;
 }
 
-.itemSelected
-{
-	background-color:#8bd1ee;
+
+.playerSearchBox {
+    margin-top: 8px
 }
 
-#playlistName, #playlistType, #tags, #videos
-{
-    width:200px;
-    font-size:12px;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
+.playerSearchBox input {
+    width:181px;
 }
 
-#playlistName, #tags, #videos
-{
-    height:16px;
+.playerSearchBox button {
+    width: 25px;
+    background-image: url(/_layouts/images/gosearch15.png);
+    min-width: 1px;
+    padding: 1px;
 }
 
-#playlistType
-{
-    height:20px;
+.playerSearchBox button,
+.playerSearchBox input {
+    margin: 0 0 0 0;
+    border: none;
+    border: 1px solid silver;
 }
 
-#divPicklist
-{
-    margin-top:5px;
-    
+.playerSearchBox_default_text {
+    font-style: italic;
+    color: silver;
 }
 
-.picklist .moveButtons input
-{
-    vertical-align:middle;
+.itemSelected {
+    background-color: #8bd1ee;
 }
 
-.picklist .moveButtons
-{
-    width:208px;
-    height:16px;
-    clear:both;
-    color:#000000;
-    vertical-align:middle;
+#playlistName,
+#playlistType,
+#tags,
+#videos {
+    width: 200px;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.picklist .moveButtons > input
-{
-    margin-left:1px;
-    float:left;
+#playlistName,
+#tags,
+#videos {
+    height: 16px;
 }
 
-.picklist .moveButtons > span
-{
-    float:right;
+#playlistType {
+    height: 20px;
 }
 
-.picklist .moveButtons label
-{
-    margin-top:2px;
-    float:left;
-    font-weight:normal;
-    color:gray;
+#divPicklist {
+    margin-top: 5px;
 }
 
-.picklist .moveButtons button
-{
-    width:50px;
-    height:20px;
-    font-size:11px;
-    padding-top:0;
+.picklist .moveButtons input {
+    vertical-align: middle;
 }
 
-.buttonBlock
-{
- text-align:right;
+.picklist .moveButtons {
+    width: 208px;
+    height: 16px;
+    clear: both;
+    color: #000000;
+    vertical-align: middle;
 }
 
-.divPicklist, #divPicklist
-{
-	overflow:hidden;
-	
+.picklist .moveButtons> input {
+    margin-left: 1px;
+    float: left;
 }
 
-.chooserContainer
-{
-    margin-left:25px;
-    
+.picklist .moveButtons> span {
+    float: right;
 }
 
-.videosAvailable
-{
+.picklist .moveButtons label {
+    margin-top: 2px;
+    float: left;
+    font-weight: normal;
+    color: gray;
+}
+
+.picklist .moveButtons button {
+    width: 50px;
+    height: 20px;
+    font-size: 11px;
+    padding-top: 0;
+}
+
+.buttonBlock {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.divPicklist,
+#divPicklist {
+    overflow: hidden;
+}
+
+.chooserContainer {
+    margin-left: 25px;
+}
+
+.videosAvailable {
     margin-top: 10px;
-	width:250px;
+    width: 250px;
 }
-.ui-dialog.ui-widget.ui-widget-content{
-	z-index: 1000;
+
+.playlistsAvailable {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.ui-dialog.ui-widget.ui-widget-content {
+    z-index: 1000;
     background-color: white;
-	border: 1px solid black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px grey;
+    overflow-y: scroll;
+    resize: vertical;
+    overflow: auto;
+}
+
+
+#loadingoverlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0,0,0,0.5);  Black background with opacity */
+    z-index: 2000; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#loadingtext {
+    position: absolute;
+    text-align: left;
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 5px grey;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    font-size: 16px;
+    color: black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
