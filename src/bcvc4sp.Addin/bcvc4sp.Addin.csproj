@@ -44,7 +44,7 @@
   <ItemGroup>
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
-    <Content Include="Static\css\main.045ba4d0.css" />
+    <Content Include="Static\css\main.60f544d7.css" />
     <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\Elements.xml" />
     <Content Include="Static\js\main.096aaae6.js" />
@@ -63,7 +63,7 @@
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Static\css\main.045ba4d0.css.map" />
+    <None Include="Static\css\main.60f544d7.css.map" />
     <None Include="Static\css\vendor.da20cd26.css.map" />
     <None Include="Static\js\main.096aaae6.js.map" />
     <None Include="Static\js\runtime.f6284966.js.map" />

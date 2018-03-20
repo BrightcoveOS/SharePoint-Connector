@@ -12,7 +12,7 @@
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Reference to the production css bundle. Update the hash after a build. -->
-    <link rel="Stylesheet" type="text/css" href="../static/css/main.045ba4d0.css" />
+    <link rel="Stylesheet" type="text/css" href="../static/css/main.60f544d7.css" />
     <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
 </asp:Content>
 

@@ -6,8 +6,6 @@
     <File Path="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" Url="Static/media/glyphicons-halflings-regular.e18bbf61.ttf" ReplaceContent="TRUE" />
     <File Path="Static\media\glyphicons-halflings-regular.f4769f9b.eot" Url="Static/media/glyphicons-halflings-regular.f4769f9b.eot" ReplaceContent="TRUE" />
     <File Path="Static\media\glyphicons-halflings-regular.fa277232.woff" Url="Static/media/glyphicons-halflings-regular.fa277232.woff" ReplaceContent="TRUE" />
-    <File Path="Static\css\main.045ba4d0.css" Url="Static/css/main.045ba4d0.css" ReplaceContent="TRUE" />
-    <File Path="Static\css\main.045ba4d0.css.map" Url="Static/css/main.045ba4d0.css.map" ReplaceContent="TRUE" />
     <File Path="Static\css\vendor.da20cd26.css" Url="Static/css/vendor.da20cd26.css" ReplaceContent="TRUE" />
     <File Path="Static\css\vendor.da20cd26.css.map" Url="Static/css/vendor.da20cd26.css.map" ReplaceContent="TRUE" />
     <File Path="Static\js\main.096aaae6.js" Url="Static/js/main.096aaae6.js" ReplaceContent="TRUE" />
@@ -16,5 +14,7 @@
     <File Path="Static\js\runtime.f6284966.js.map" Url="Static/js/runtime.f6284966.js.map" ReplaceContent="TRUE" />
     <File Path="Static\js\vendor.a3c00b92.js" Url="Static/js/vendor.a3c00b92.js" ReplaceContent="TRUE" />
     <File Path="Static\js\vendor.a3c00b92.js.map" Url="Static/js/vendor.a3c00b92.js.map" ReplaceContent="TRUE" />
+    <File Path="Static\css\main.60f544d7.css" Url="Static/css/main.60f544d7.css" ReplaceContent="TRUE" />
+    <File Path="Static\css\main.60f544d7.css.map" Url="Static/css/main.60f544d7.css.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
