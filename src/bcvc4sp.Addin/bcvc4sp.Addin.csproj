@@ -1,0 +1,119 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5959D92C-2CCF-4765-9EAB-1E800DB97C25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bcv4sp.Addin</RootNamespace>
+    <AssemblyName>bcv4sp.Addin</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{df46f96b-e329-44c7-8339-d53a24517061}</AppFeaturePartId>
+    <WspPartId>{abc42f47-d25c-4770-9b4b-e32ffbddf8ad}</WspPartId>
+    <WorkflowPartId>{a17fcd2c-78ed-4e8c-b889-6a796f31bba5}</WorkflowPartId>
+    <CspkgPartId>{5fd8a68a-f0da-4d23-b652-d987a0e82720}</CspkgPartId>
+    <SqlPackagePartId>{d9be85bd-b70f-4151-bc5e-5f01ee0c84fa}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
+    <Content Include="Pages\images\favicon-32x32.png" />
+    <Content Include="Static\css\main.045ba4d0.css" />
+    <Content Include="Static\css\vendor.da20cd26.css" />
+    <Content Include="Static\Elements.xml" />
+    <Content Include="Static\js\main.096aaae6.js" />
+    <Content Include="Static\js\runtime.f6284966.js" />
+    <Content Include="Static\js\vendor.a3c00b92.js" />
+    <Content Include="Static\media\glyphicons-halflings-regular.89889688.svg" />
+    <None Include="MasterPageGallery\BrightcoveApp.master" />
+    <None Include="MasterPageGallery\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9bb2ed41-5f65-439e-b27c-e36634913099}</SharePointProjectItemId>
+    </None>
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef96a10d-395b-4f52-aa07-98509eee3122}</SharePointProjectItemId>
+    </None>
+    <Content Include="MasterPageGallery\Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Static\css\main.045ba4d0.css.map" />
+    <None Include="Static\css\vendor.da20cd26.css.map" />
+    <None Include="Static\js\main.096aaae6.js.map" />
+    <None Include="Static\js\runtime.f6284966.js.map" />
+    <None Include="Static\js\vendor.a3c00b92.js.map" />
+    <None Include="Static\media\glyphicons-halflings-regular.448c34a5.woff2" />
+    <None Include="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
+    <None Include="Static\media\glyphicons-halflings-regular.f4769f9b.eot" />
+    <None Include="Static\media\glyphicons-halflings-regular.fa277232.woff" />
+    <None Include="Static\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d9be85bd-b70f-4151-bc5e-5f01ee0c84fa}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfd18400-29a8-4066-a076-24bbb23562e6}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{57e1fb3d-0f54-4aa1-a480-8f97ea889075}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\BrightcoveVideoConnectorForSharePoint\BrightcoveVideoConnectorForSharePoint.feature">
+      <FeatureId>{9c4dc333-d268-44d0-8068-64e2ecbb733b}</FeatureId>
+    </None>
+    <None Include="Features\BrightcoveVideoConnectorForSharePoint\BrightcoveVideoConnectorForSharePoint.Template.xml">
+      <DependentUpon>BrightcoveVideoConnectorForSharePoint.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources %28Host Web%29\Resources.en-US.resx" />
+    <EmbeddedResource Include="Resources %28Host Web%29\Resources.resx">
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

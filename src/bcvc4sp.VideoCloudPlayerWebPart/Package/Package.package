@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="988c33cb-cd4b-4171-b68c-c0f482cd5003" solutionId="988c33cb-cd4b-4171-b68c-c0f482cd5003" resetWebServer="false" sharePointProductVersion="16.0" name="BrightcoveVideoCloudPlayer" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="af6782bd-beed-4b43-a1bd-a29fc8bf87c4" />
+  </features>
+</package>

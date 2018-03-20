@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <CustomAction
+    Description="This Button will be used to Upload the Links, Images etc.,"
+    Id="UploadLinkRibbonAction"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.EditingTools.CPInsert.Groups._children"
+          >
+          <Group
+            Id="UploadLinkRibbonActionGroup"
+            Sequence="80"
+            Description="This group will contain the Button control"
+            Title="Brightcove"
+            Template="Ribbon.Templates.Flexible2">
+            <Controls Id="UploadLinkControl">
+              <Button
+                Id="UploadLinkButton"
+                Command="UploadLinkButtonCommand"
+                Image32by32="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFO5GaPpKbQZSdRZafSJegS5iiTpqjUZykU52mVJ6nV5+oWqGpXaKrX6OtYaWsYaStYqWuZaewZ6iwZ6mxaKmxa6qzbay0cK62c7C4drG5ebK6lxpemxxhniRmoR1kpR5nqx9pryBstSNwtSRwwCZ2xSh5yil8u1aNzyuA1i+D2zKH4DWKwkqJwVmQzFSTz1qX0EKL30uVnbo9n7s+or09pL49pb9Jp8A+qsI+q8Q+sMc+ssg+tcs+uMw/us4+v9E+vdA/rcVErsZFuc5JvM9evc9vwtRWwtN9g7i+g7i/kcDFkcDGmcXKsdPXtNTY5Im454q54bfO5bfP2uSS3+il3Oa34Om05u2yxt7h0OTm1efp1+jq2+vs3+zu5e3H6e/K6/DD6PLz9uHs+uLu/O719vnp+Prv8Pb39/r7+/D1+vvz+vv2+Pv7+fv8+vz8+/z9/fv8/f77/Pz9/v3+/v7+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJGBrQgAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAUBJREFUOE910QdPwzAQBWC3UEabsikte+9Z9t6z7L03LbNAyP1/bN8DgeJ8iixf3pPiJIKIbFsuXlQhFuO9kSxsRKObmAwEOWWSg9FNUHlEWsXoJlKl2iNmF1ECmF1EIRBdH2lJJCASBdpamqZhDxETFNbew+v7M/DvlQSdWNJpvmXRFCwh0+SHCoVC1plc8h4m4RmhIgtvwaC8pNT8BCBU1L8ojiRytc9xuOJQUQVystnx4Rhb0JmmC+ksVkRJ5tDXPeMCBdjN7Cibu+sAFC4ylZzLEXDaoQ8FCmRINAyL222AMxC9+v3+leVBoFbY+i2Q5fPRABz0NoMMfgokzofirP+pCW7VfY4V5PGXnkbWre7+KZiZCp31rEENpoJdB7tyMD6iqxbk3nyGGmjxKuxUg+1RoEqo8ip8VIBX4QfRNy96XP42P/hjAAAAAElFTkSuQmCC"
+                LabelText="Brightcove Video"
+                TemplateAlias="o1"
+                Sequence="10"/>
+              <Button
+                Id="UploadLink2Button"
+                Command="UploadLink2ButtonCommand"
+                Image32by32="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFO5GaPpKbQZSdRZafSJegS5iiTpqjUZykU52mVJ6nV5+oWqGpXaKrX6OtYaWsYaStYqWuZaewZ6iwZ6mxaKmxa6qzbay0cK62c7C4drG5ebK6lxpemxxhniRmoR1kpR5nqx9pryBstSNwtSRwwCZ2xSh5yil8u1aNzyuA1i+D2zKH4DWKwkqJwVmQzFSTz1qX0EKL30uVnbo9n7s+or09pL49pb9Jp8A+qsI+q8Q+sMc+ssg+tcs+uMw/us4+v9E+vdA/rcVErsZFuc5JvM9evc9vwtRWwtN9g7i+g7i/kcDFkcDGmcXKsdPXtNTY5Im454q54bfO5bfP2uSS3+il3Oa34Om05u2yxt7h0OTm1efp1+jq2+vs3+zu5e3H6e/K6/DD6PLz9uHs+uLu/O719vnp+Prv8Pb39/r7+/D1+vvz+vv2+Pv7+fv8+vz8+/z9/fv8/f77/Pz9/v3+/v7+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJGBrQgAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAUBJREFUOE910QdPwzAQBWC3UEabsikte+9Z9t6z7L03LbNAyP1/bN8DgeJ8iixf3pPiJIKIbFsuXlQhFuO9kSxsRKObmAwEOWWSg9FNUHlEWsXoJlKl2iNmF1ECmF1EIRBdH2lJJCASBdpamqZhDxETFNbew+v7M/DvlQSdWNJpvmXRFCwh0+SHCoVC1plc8h4m4RmhIgtvwaC8pNT8BCBU1L8ojiRytc9xuOJQUQVystnx4Rhb0JmmC+ksVkRJ5tDXPeMCBdjN7Cibu+sAFC4ylZzLEXDaoQ8FCmRINAyL222AMxC9+v3+leVBoFbY+i2Q5fPRABz0NoMMfgokzofirP+pCW7VfY4V5PGXnkbWre7+KZiZCp31rEENpoJdB7tyMD6iqxbk3nyGGmjxKuxUg+1RoEqo8ip8VIBX4QfRNy96XP42P/hjAAAAAElFTkSuQmCC"
+                LabelText="Brightcove Playlist"
+                TemplateAlias="o1"
+                Sequence="20"/>
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+        <CommandUIDefinition
+          Location="Ribbon.EditingTools.CPInsert.Scaling._children">
+          <MaxSize
+            Id="CustomEditRibbonActionsOneMaxSize"
+            Sequence="15"
+            GroupId="UploadLinkRibbonActionGroup"
+            Size="LargeLarge"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="UploadLinkButtonCommand"
+          CommandAction="javascript:BrightcovePlayerAddVideo();
+
+function BrightcovePlayerAddVideo()
+{
+    window['BrightcovePlayerObjectType'] = 'video';
+    
+    if  (window['BrightcovePlayerObjectAppendJS'] == null) {
+        window['BrightcovePlayerObjectAppendJS'] = function (jsurl)
+        {
+          //var script = document.createElement('script');
+          //script.type = 'text/javascript';
+          //script.src = jsurl;    
+
+          //document.getElementsByTagName('head')[0].appendChild(script);
+          
+          var script = document.createElement('script');
+          script.src = jsurl;
+          var head = document.getElementsByTagName('head')[0],
+          done = false;
+          head.appendChild(script);
+          // Attach handlers for all browsers
+          script.onload = script.onreadystatechange = function() 
+          {
+              if (!done &amp;&amp; (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete'))
+              {
+			          done = true;
+			          BrightcovePlayerObject.Init();
+			          script.onload = script.onreadystatechange = null;    
+              }
+          };
+        }
+    }
+    if (window['initBrightcovePlayer'] == null){
+        window['initBrightcovePlayer'] = function ()
+        {
+            if (window['BrightcovePlayerObjectScriptOutputted'] == null)
+            {
+                window['BrightcovePlayerObjectScriptOutputted'] = false;
+            }
+        
+            //if the jQuery object isn't available
+            if (typeof(BrightcovePlayerObject) == 'undefined') {
+                //only output the script once..
+                window['BrightcovePlayerObjectScriptOutputted'] = true;
+                //output the script
+                var brightcovePlayerScriptUrl = __getSiteTemplatePrefix() + '/BrightcoveConnectorResources/BrightcovePlayer.js';
+                window['BrightcovePlayerObjectAppendJS'](brightcovePlayerScriptUrl);
+            } else {
+                BrightcovePlayerObject.Init();
+            }
+            
+        }
+    }
+    window['initBrightcovePlayer']();
+}
+function __getSiteTemplatePrefix() {
+    if (_spPageContextInfo.siteServerRelativeUrl == '/') {
+        return '';
+    }
+    else {
+        return _spPageContextInfo.siteServerRelativeUrl;
+    }
+}
+           "/>
+        <CommandUIHandler
+          Command="UploadLink2ButtonCommand"
+          CommandAction="javascript:BrightcovePlayerAddPlaylist();
+
+function BrightcovePlayerAddPlaylist()
+{
+    window['BrightcovePlayerObjectType'] = 'playlist';
+    
+    if  (window['BrightcovePlayerObjectAppendJS'] == null) {
+        window['BrightcovePlayerObjectAppendJS'] = function (jsurl)
+        {
+          //var script = document.createElement('script');
+          //script.type = 'text/javascript';
+          //script.src = jsurl;    
+
+          //document.getElementsByTagName('head')[0].appendChild(script);
+          
+          var script = document.createElement('script');
+          script.src = jsurl;
+          var head = document.getElementsByTagName('head')[0],
+          done = false;
+          head.appendChild(script);
+          // Attach handlers for all browsers
+          script.onload = script.onreadystatechange = function() 
+          {
+              if (!done &amp;&amp; (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete'))
+              {
+			          done = true;
+			          BrightcovePlayerObject.Init();
+			          script.onload = script.onreadystatechange = null;    
+              }
+          };
+        }
+    }
+    if (window['initBrightcovePlayer'] == null){
+        window['initBrightcovePlayer'] = function ()
+        {
+            if (window['BrightcovePlayerObjectScriptOutputted'] == null)
+            {
+                window['BrightcovePlayerObjectScriptOutputted'] = false;
+            }
+        
+            //if the jQuery object isn't available
+            if (typeof(BrightcovePlayerObject) == 'undefined') {
+                //only output the script once..
+                window['BrightcovePlayerObjectScriptOutputted'] = true;
+                //output the script
+                var brightcovePlayerScriptUrl = __getSiteTemplatePrefix() + '/BrightcoveConnectorResources/BrightcovePlayer.js';
+                window['BrightcovePlayerObjectAppendJS'](brightcovePlayerScriptUrl);
+            } else {
+                BrightcovePlayerObject.Init();
+            }
+        }
+    }
+    window['initBrightcovePlayer']();
+}
+function __getSiteTemplatePrefix() {
+    if (_spPageContextInfo.siteServerRelativeUrl == '/') {
+        return '';
+    }
+    else {
+        return _spPageContextInfo.siteServerRelativeUrl;
+    }
+}
+           "/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+
+  </CustomAction>
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPageGallery">
+    <File Path="MasterPageGallery\BrightcoveApp.master" Url="_catalogs/masterpage/BrightcoveApp.master" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
