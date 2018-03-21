@@ -71,7 +71,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcoveVideo"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/videos-embed"/>
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/mini/videos"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
@@ -97,7 +97,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcovePlaylist"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/playlists-embed"/>
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/mini/playlists"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
@@ -123,7 +123,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcoveExperience"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/experiences-embed"/>
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}#/mini/experiences"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
