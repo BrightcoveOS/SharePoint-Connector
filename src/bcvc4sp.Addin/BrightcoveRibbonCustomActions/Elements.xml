@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="BrightcoveRibbonCustomActions"
+                Location="CommandUI.Ribbon"
+                Sequence="10001"
+                Title="Invoke &apos;BrightcoveRibbonCustomActions&apos; action">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Templates._children">
+          <GroupTemplate Id="Brightcove.Ribbon.Templates.Flexible">
+            <Layout Title="Large">
+              <OverflowSection Type="OneRow" TemplateAlias="o1" DisplayMode="Large"/>
+            </Layout>
+            <Layout Title="Medium">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Medium"/>
+            </Layout>
+            <Layout Title="MediumTwoRow">
+              <OverflowSection Type="TwoRow" TemplateAlias="o1" DisplayMode="Medium" />
+            </Layout>
+            <Layout Title="Small">
+              <OverflowSection Type="ThreeRow" TemplateAlias="o1" DisplayMode="Small" />
+            </Layout>
+            <Layout Title="Popup" LayoutTitle="Large" />
+          </GroupTemplate>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Scaling._children">
+          <MaxSize
+              Id="Brightcove.Ribbon.Scaling"
+              GroupId="Ribbon.EditingTools.CPInsert.Brightcove"
+              Size="Large" />
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Groups._children">
+          <Group
+            Id="Ribbon.EditingTools.CPInsert.Brightcove"
+            Sequence="60"
+            Command="BrightcoveGroup"
+            Description="Contains Brightcove Actions"
+            Title="Brightcove"
+            Template="Brightcove.Ribbon.Templates.Flexible">
+            <Controls Id="Ribbon.EditingTools.CPInsert.Brightcove.Controls">
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+            Command="Invoke_BrightcoveRibbonCustomActions2"
+            CommandAction="~appWebUrl/Pages/Default.aspx?listId={ListId}&amp;selectedListId={SelectedListId}&amp;itemId={ItemId}&amp;selectedItemId={SelectedItemId}"/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction Id="6E056AC3-D237-4D42-ACC7-A7E9C5B7783F.BrightcoveAddVideo"
+              Location="CommandUI.Ribbon"
+              Sequence="10002"
+              HostWebDialog="true"
+              HostWebDialogHeight="650"
+              HostWebDialogWidth="600"
+              Title="Brightcove Video">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Embed.Controls._children">
+          <Button Id="Ribbon.EditingTools.CPInsert.Embed.Controls.BrightcoveVideo"
+                  Alt="Add Brightcove Video"
+                  Sequence="101"
+                  Command="Invoke_AddBrightcoveVideo"
+                  LabelText="Brightcove Video"
+                  TemplateAlias="o1"
+                  Image32by32="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFO5GaPpKbQZSdRZafSJegS5iiTpqjUZykU52mVJ6nV5+oWqGpXaKrX6OtYaWsYaStYqWuZaewZ6iwZ6mxaKmxa6qzbay0cK62c7C4drG5ebK6lxpemxxhniRmoR1kpR5nqx9pryBstSNwtSRwwCZ2xSh5yil8u1aNzyuA1i+D2zKH4DWKwkqJwVmQzFSTz1qX0EKL30uVnbo9n7s+or09pL49pb9Jp8A+qsI+q8Q+sMc+ssg+tcs+uMw/us4+v9E+vdA/rcVErsZFuc5JvM9evc9vwtRWwtN9g7i+g7i/kcDFkcDGmcXKsdPXtNTY5Im454q54bfO5bfP2uSS3+il3Oa34Om05u2yxt7h0OTm1efp1+jq2+vs3+zu5e3H6e/K6/DD6PLz9uHs+uLu/O719vnp+Prv8Pb39/r7+/D1+vvz+vv2+Pv7+fv8+vz8+/z9/fv8/f77/Pz9/v3+/v7+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJGBrQgAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAUBJREFUOE910QdPwzAQBWC3UEabsikte+9Z9t6z7L03LbNAyP1/bN8DgeJ8iixf3pPiJIKIbFsuXlQhFuO9kSxsRKObmAwEOWWSg9FNUHlEWsXoJlKl2iNmF1ECmF1EIRBdH2lJJCASBdpamqZhDxETFNbew+v7M/DvlQSdWNJpvmXRFCwh0+SHCoVC1plc8h4m4RmhIgtvwaC8pNT8BCBU1L8ojiRytc9xuOJQUQVystnx4Rhb0JmmC+ksVkRJ5tDXPeMCBdjN7Cibu+sAFC4ylZzLEXDaoQ8FCmRINAyL222AMxC9+v3+leVBoFbY+i2Q5fPRABz0NoMMfgokzofirP+pCW7VfY4V5PGXnkbWre7+KZiZCp31rEENpoJdB7tyMD6iqxbk3nyGGmjxKuxUg+1RoEqo8ip8VIBX4QfRNy96XP42P/hjAAAAAElFTkSuQmCC"
+                  />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_AddBrightcoveVideo"
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}"/>
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+  <CustomAction Id="84B66F32-60B7-4E7F-A403-DF51B39D2B8D.BrightcoveAddPlaylist"
+              Location="CommandUI.Ribbon"
+              Sequence="10002"
+              HostWebDialog="true"
+              HostWebDialogHeight="650"
+              HostWebDialogWidth="600"
+              Title="Brightcove Playlist">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Embed.Controls._children">
+          <Button Id="Ribbon.EditingTools.CPInsert.Embed.Controls.BrightcovePlaylist"
+                  Alt="Add Brightcove Playlist"
+                  Sequence="102"
+                  Command="Invoke_AddBrightcovePlaylist"
+                  LabelText="Brightcove Playlist"
+                  TemplateAlias="o1"
+                  Image32by32="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFO5GaPpKbQZSdRZafSJegS5iiTpqjUZykU52mVJ6nV5+oWqGpXaKrX6OtYaWsYaStYqWuZaewZ6iwZ6mxaKmxa6qzbay0cK62c7C4drG5ebK6lxpemxxhniRmoR1kpR5nqx9pryBstSNwtSRwwCZ2xSh5yil8u1aNzyuA1i+D2zKH4DWKwkqJwVmQzFSTz1qX0EKL30uVnbo9n7s+or09pL49pb9Jp8A+qsI+q8Q+sMc+ssg+tcs+uMw/us4+v9E+vdA/rcVErsZFuc5JvM9evc9vwtRWwtN9g7i+g7i/kcDFkcDGmcXKsdPXtNTY5Im454q54bfO5bfP2uSS3+il3Oa34Om05u2yxt7h0OTm1efp1+jq2+vs3+zu5e3H6e/K6/DD6PLz9uHs+uLu/O719vnp+Prv8Pb39/r7+/D1+vvz+vv2+Pv7+fv8+vz8+/z9/fv8/f77/Pz9/v3+/v7+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJGBrQgAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAUBJREFUOE910QdPwzAQBWC3UEabsikte+9Z9t6z7L03LbNAyP1/bN8DgeJ8iixf3pPiJIKIbFsuXlQhFuO9kSxsRKObmAwEOWWSg9FNUHlEWsXoJlKl2iNmF1ECmF1EIRBdH2lJJCASBdpamqZhDxETFNbew+v7M/DvlQSdWNJpvmXRFCwh0+SHCoVC1plc8h4m4RmhIgtvwaC8pNT8BCBU1L8ojiRytc9xuOJQUQVystnx4Rhb0JmmC+ksVkRJ5tDXPeMCBdjN7Cibu+sAFC4ylZzLEXDaoQ8FCmRINAyL222AMxC9+v3+leVBoFbY+i2Q5fPRABz0NoMMfgokzofirP+pCW7VfY4V5PGXnkbWre7+KZiZCp31rEENpoJdB7tyMD6iqxbk3nyGGmjxKuxUg+1RoEqo8ip8VIBX4QfRNy96XP42P/hjAAAAAElFTkSuQmCC"
+                  />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_AddBrightcovePlaylist"
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}"/>
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+  <CustomAction Id="3A3C2BF5-DDA3-4244-A1CB-468912892CFD.BrightcoveAddExperience"
+              Location="CommandUI.Ribbon"
+              Sequence="10002"
+              HostWebDialog="true"
+              HostWebDialogHeight="650"
+              HostWebDialogWidth="600"
+              Title="Add Experience">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Embed.Controls._children">
+          <Button Id="Ribbon.EditingTools.CPInsert.Embed.Controls.BrightcoveExperience"
+                  Alt="Add Brightcove Experience"
+                  Sequence="103"
+                  Command="Invoke_AddBrightcoveExperience"
+                  LabelText="Brightcove Experience"
+                  TemplateAlias="o1"
+                  Image32by32="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFO5GaPpKbQZSdRZafSJegS5iiTpqjUZykU52mVJ6nV5+oWqGpXaKrX6OtYaWsYaStYqWuZaewZ6iwZ6mxaKmxa6qzbay0cK62c7C4drG5ebK6lxpemxxhniRmoR1kpR5nqx9pryBstSNwtSRwwCZ2xSh5yil8u1aNzyuA1i+D2zKH4DWKwkqJwVmQzFSTz1qX0EKL30uVnbo9n7s+or09pL49pb9Jp8A+qsI+q8Q+sMc+ssg+tcs+uMw/us4+v9E+vdA/rcVErsZFuc5JvM9evc9vwtRWwtN9g7i+g7i/kcDFkcDGmcXKsdPXtNTY5Im454q54bfO5bfP2uSS3+il3Oa34Om05u2yxt7h0OTm1efp1+jq2+vs3+zu5e3H6e/K6/DD6PLz9uHs+uLu/O719vnp+Prv8Pb39/r7+/D1+vvz+vv2+Pv7+fv8+vz8+/z9/fv8/f77/Pz9/v3+/v7+////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJGBrQgAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAUBJREFUOE910QdPwzAQBWC3UEabsikte+9Z9t6z7L03LbNAyP1/bN8DgeJ8iixf3pPiJIKIbFsuXlQhFuO9kSxsRKObmAwEOWWSg9FNUHlEWsXoJlKl2iNmF1ECmF1EIRBdH2lJJCASBdpamqZhDxETFNbew+v7M/DvlQSdWNJpvmXRFCwh0+SHCoVC1plc8h4m4RmhIgtvwaC8pNT8BCBU1L8ojiRytc9xuOJQUQVystnx4Rhb0JmmC+ksVkRJ5tDXPeMCBdjN7Cibu+sAFC4ylZzLEXDaoQ8FCmRINAyL222AMxC9+v3+leVBoFbY+i2Q5fPRABz0NoMMfgokzofirP+pCW7VfY4V5PGXnkbWre7+KZiZCp31rEENpoJdB7tyMD6iqxbk3nyGGmjxKuxUg+1RoEqo8ip8VIBX4QfRNy96XP42P/hjAAAAAElFTkSuQmCC"
+                  />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="Invoke_AddBrightcoveExperience"
+                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}"/>
+      </CommandUIHandlers>
+    </CommandUIExtension >
+  </CustomAction>
+</Elements>

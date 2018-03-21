@@ -42,6 +42,12 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="BrightcoveRibbonCustomActions\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.Template.xml">
+      <DependentUpon>BrightcoveRibbonCustomActions.feature</DependentUpon>
+    </Content>
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
     <Content Include="Static\css\main.60f544d7.css" />
@@ -51,6 +57,12 @@
     <Content Include="Static\js\runtime.f6284966.js" />
     <Content Include="Static\js\vendor.a3c00b92.js" />
     <Content Include="Static\media\glyphicons-halflings-regular.89889688.svg" />
+    <None Include="BrightcoveRibbonCustomActions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{81e210bf-25e9-4b1c-b8d6-e6af9ab9aaa9}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.feature">
+      <FeatureId>{8eadd482-0d19-4916-81fa-4ccaac3ecdad}</FeatureId>
+    </None>
     <None Include="MasterPageGallery\BrightcoveApp.master" />
     <None Include="MasterPageGallery\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{9bb2ed41-5f65-439e-b27c-e36634913099}</SharePointProjectItemId>

@@ -1,5 +1,3 @@
-﻿<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="077ff473-f436-4a90-b853-0179729039e8" SharePointProductVersion="15.0">
-  <FeatureManifests>
-    <FeatureManifest Location="BrightcovePlayer_Feature1\Feature.xml" />
-  </FeatureManifests>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/">
 </Solution>
