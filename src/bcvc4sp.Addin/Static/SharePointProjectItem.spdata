@@ -9,13 +9,13 @@
     <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.096aaae6.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.096aaae6.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.f6284966.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.f6284966.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.a3c00b92.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.a3c00b92.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.60f544d7.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.60f544d7.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.6ac010a4.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.6ac010a4.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.92fdcc1a.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.92fdcc1a.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.86e1ed74.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.86e1ed74.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.9c4bdcdc.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.9c4bdcdc.js.map" Target="Static\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>
