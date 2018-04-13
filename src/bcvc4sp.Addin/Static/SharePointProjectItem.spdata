@@ -7,15 +7,15 @@
     <ProjectItemFile Source="media\glyphicons-halflings-regular.f4769f9b.eot" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.fa277232.woff" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.6ac010a4.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.6ac010a4.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.92fdcc1a.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.92fdcc1a.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.86e1ed74.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.86e1ed74.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.9c4bdcdc.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.9c4bdcdc.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.a1d9c6d4.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.a1d9c6d4.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\vendor.ee346c07.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\vendor.ee346c07.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.ffb0a648.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.ffb0a648.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.9c3dbc80.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.9c3dbc80.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.7eece66a.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.7eece66a.js.map" Target="Static\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>
