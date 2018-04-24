@@ -11,7 +11,7 @@
     <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
     <!-- Reference to the production css bundle. Update the hash after a build. -->
-    <link rel="Stylesheet" type="text/css" href="../static/css/vendor.ee346c07.css" />
+    <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
     <link rel="Stylesheet" type="text/css" href="../static/css/main.a1d9c6d4.css" />
 </asp:Content>
 
@@ -27,9 +27,9 @@
     </noscript>
     <div id="root"></div>
     <!-- Reference to the production bundle. Update the hashes after a build. -->
-    <script type="text/javascript" src="../static/js/runtime.9c3dbc80.js"></script>
+    <script type="text/javascript" src="../static/js/runtime.0c8fe7e0.js"></script>
     <script type="text/javascript" src="../static/js/vendor.7eece66a.js"></script>
-    <script type="text/javascript" src="../static/js/main.ffb0a648.js"></script>
+    <script type="text/javascript" src="../static/js/main.65821f00.js"></script>
 
     <!-- Reference to the dev bundle. Uncomment during development. -->
 <%--    <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>

@@ -51,10 +51,10 @@
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
     <Content Include="Static\css\main.a1d9c6d4.css" />
-    <Content Include="Static\css\vendor.ee346c07.css" />
+    <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\Elements.xml" />
-    <Content Include="Static\js\main.ffb0a648.js" />
-    <Content Include="Static\js\runtime.9c3dbc80.js" />
+    <Content Include="Static\js\main.65821f00.js" />
+    <Content Include="Static\js\runtime.0c8fe7e0.js" />
     <Content Include="Static\js\vendor.7eece66a.js" />
     <Content Include="Static\media\glyphicons-halflings-regular.89889688.svg" />
     <None Include="BrightcoveRibbonCustomActions\SharePointProjectItem.spdata">
@@ -76,9 +76,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\css\main.a1d9c6d4.css.map" />
-    <None Include="Static\css\vendor.ee346c07.css.map" />
-    <None Include="Static\js\main.ffb0a648.js.map" />
-    <None Include="Static\js\runtime.9c3dbc80.js.map" />
+    <None Include="Static\css\vendor.da20cd26.css.map" />
+    <None Include="Static\js\main.65821f00.js.map" />
+    <None Include="Static\js\runtime.0c8fe7e0.js.map" />
     <None Include="Static\js\vendor.7eece66a.js.map" />
     <None Include="Static\media\glyphicons-halflings-regular.448c34a5.woff2" />
     <None Include="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
@@ -118,8 +118,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources %28Host Web%29\Resources.en-US.resx" />
+    <Content Include="Resources %28Host Web%29\Resources.en.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
     <EmbeddedResource Include="Resources %28Host Web%29\Resources.resx">
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <OpcRelationship>content-defaultresource</OpcRelationship>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
