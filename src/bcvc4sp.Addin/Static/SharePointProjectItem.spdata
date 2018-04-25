@@ -11,11 +11,11 @@
     <ProjectItemFile Source="css\main.a1d9c6d4.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="js\vendor.7eece66a.js" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\vendor.7eece66a.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.65821f00.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.65821f00.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.0c8fe7e0.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.0c8fe7e0.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.8428af39.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.624e6484.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.624e6484.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.8428af39.js" Target="Static\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>
