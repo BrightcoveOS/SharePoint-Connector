@@ -27,9 +27,9 @@
     </noscript>
     <div id="root"></div>
     <!-- Reference to the production bundle. Update the hashes after a build. -->
-    <script type="text/javascript" src="../static/js/runtime.6e1a525e.js"></script>
+    <script type="text/javascript" src="../static/js/runtime.414b7058.js"></script>
     <script type="text/javascript" src="../static/js/vendor.7eece66a.js"></script>
-    <script type="text/javascript" src="../static/js/main.3890c98a.js"></script>
+    <script type="text/javascript" src="../static/js/main.6d7b662d.js"></script>
 
     <!-- Reference to the dev bundle. Uncomment during development. -->
 <%--    <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>
