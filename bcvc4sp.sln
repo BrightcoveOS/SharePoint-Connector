@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.Addin_old", "src\bcvc4sp.Addin_old\bcvc4sp.Addin_old.csproj", "{0BEF4FAE-AE0B-41C2-82E1-66BCBC77F08D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.Addin_2.x", "src\bcvc4sp.Addin_2.x\bcvc4sp.Addin_2.x.csproj", "{0BEF4FAE-AE0B-41C2-82E1-66BCBC77F08D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.Proxy", "src\bcvc4sp.Proxy\bcvc4sp.Proxy.csproj", "{BE34DF6E-9654-4080-B1D9-95FA967DADD1}"
 EndProject
@@ -12,6 +12,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.VideoCloudPlayerWebPart", "src\bcvc4sp.VideoCloudPlayerWebPart\bcvc4sp.VideoCloudPlayerWebPart.csproj", "{A249D649-43B4-4220-A821-A7A3C3F30463}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.Addin", "src\bcvc4sp.Addin\bcvc4sp.Addin.csproj", "{5959D92C-2CCF-4765-9EAB-1E800DB97C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BA962A6-9D77-4059-AEE7-3F90AE659252}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE. = LICENSE.
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

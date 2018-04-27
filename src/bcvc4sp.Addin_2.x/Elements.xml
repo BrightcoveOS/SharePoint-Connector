@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="">
+    <File Path="resources\BrightcovePlayer.css" Url="resources/BrightcovePlayer.css" ReplaceContent="TRUE" />
+    <File Path="resources\BrightcovePlayer.js" Url="resources/BrightcovePlayer.js" ReplaceContent="TRUE" />
+    <File Path="resources\BrightcovePlayerPlaylistEmbed.js" Url="resources/BrightcovePlayerPlaylistEmbed.js" ReplaceContent="TRUE" />
+    <File Path="resources\BrightcovePlayerVideoEmbed.js" Url="resources/BrightcovePlayerVideoEmbed.js" ReplaceContent="TRUE" />
+    <File Path="README.md" Url="README.md" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

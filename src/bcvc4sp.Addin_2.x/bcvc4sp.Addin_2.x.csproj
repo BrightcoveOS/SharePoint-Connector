@@ -69,7 +69,6 @@
     <None Include="fonts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4d9deb29-eb60-426b-9b27-fb21b4ac71af}</SharePointProjectItemId>
     </None>
-    <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{18c46cda-8baf-48e5-9ba3-28ecd7ccf3c7}</SharePointProjectItemId>
     </None>
@@ -104,6 +103,7 @@
     <Content Include="Pages\ManageVideos.aspx" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="README.md" />
     <None Include="SharePointProjectItem.spdata">
       <SharePointProjectItemId>{eb04a1c1-9d0d-4787-8919-e3b4aa5bfd6e}</SharePointProjectItemId>
     </None>
@@ -113,6 +113,10 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{ebb7355a-b4e9-48a2-a7a7-262eb2abeaa0}</SharePointProjectItemId>
     </None>
+    <Content Include="resources\BrightcovePlayer.css" />
+    <Content Include="resources\BrightcovePlayer.js" />
+    <Content Include="resources\BrightcovePlayerPlaylistEmbed.js" />
+    <Content Include="resources\BrightcovePlayerVideoEmbed.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Elements.xml" />
