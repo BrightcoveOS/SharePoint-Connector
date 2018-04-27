@@ -1,4 +1,4 @@
-# SharePoint-2.x-Connector
+# SharePoint-Connector
 Brightcove Connector for SharePoint 2013/2016 On-premise, SharePoint 2016 Online (Office 365)
 
 # License
