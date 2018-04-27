@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="57e1fb3d-0f54-4aa1-a480-8f97ea889075" solutionId="57e1fb3d-0f54-4aa1-a480-8f97ea889075" resetWebServer="false" sharePointProductVersion="15.0" name="bcv4sp.Addin" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="9c4dc333-d268-44d0-8068-64e2ecbb733b" />
+    <featureReference itemId="8eadd482-0d19-4916-81fa-4ccaac3ecdad" />
+  </features>
+</package>
