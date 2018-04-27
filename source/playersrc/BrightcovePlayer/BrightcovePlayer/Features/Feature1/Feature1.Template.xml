@@ -1,5 +1,0 @@
-﻿<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="08029e3c-5f69-410f-9e39-1320516445d6" Scope="Web" Title="Brightcove Player" Version="2.0.2.66">
-  <ElementManifests>
-    <ElementManifest Location="AddBrightcovePlayer\Elements.xml" />
-  </ElementManifests>
-</Feature>

@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="077ff473-f436-4a90-b853-0179729039e8" solutionId="077ff473-f436-4a90-b853-0179729039e8" resetWebServer="false" sharePointProductVersion="15.0" name="BrightcovePlayer" isDesignerEnabled="false" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
-  <features>
-    <featureReference itemId="f4639297-8a01-4228-ad5b-7c5bf69a3211" />
-  </features>
-</package>
