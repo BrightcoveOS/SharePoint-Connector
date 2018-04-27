@@ -4,7 +4,7 @@
      Name="bcvc4sp"
      ProductID="{ef96a10d-395b-4f52-aa07-98509eee3122}"
      Version="3.0.0.17"
-     SharePointMinVersion="16.0.0.0"
+     SharePointMinVersion="15.0.0.0"
 >
   <Properties>
     <Title>Brightcove Video Connector for SharePoint</Title>
