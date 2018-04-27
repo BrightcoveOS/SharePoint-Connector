@@ -13,9 +13,9 @@
     <ProjectItemFile Source="js\vendor.7eece66a.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.414b7058.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.6d7b662d.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.6d7b662d.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.414b7058.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.e03e84a5.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.86e63af8.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.86e63af8.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.e03e84a5.js" Target="Static\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>

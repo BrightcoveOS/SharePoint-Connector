@@ -53,8 +53,8 @@
     <Content Include="Static\css\main.a1d9c6d4.css" />
     <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\Elements.xml" />
-    <Content Include="Static\js\main.6d7b662d.js" />
-    <Content Include="Static\js\runtime.414b7058.js" />
+    <Content Include="Static\js\main.86e63af8.js" />
+    <Content Include="Static\js\runtime.e03e84a5.js" />
     <Content Include="Static\js\vendor.7eece66a.js" />
     <Content Include="Static\media\glyphicons-halflings-regular.89889688.svg" />
     <None Include="BrightcoveRibbonCustomActions\SharePointProjectItem.spdata">
@@ -77,8 +77,8 @@
   <ItemGroup>
     <None Include="Static\css\main.a1d9c6d4.css.map" />
     <None Include="Static\css\vendor.da20cd26.css.map" />
-    <None Include="Static\js\main.6d7b662d.js.map" />
-    <None Include="Static\js\runtime.414b7058.js.map" />
+    <None Include="Static\js\main.86e63af8.js.map" />
+    <None Include="Static\js\runtime.e03e84a5.js.map" />
     <None Include="Static\js\vendor.7eece66a.js.map" />
     <None Include="Static\media\glyphicons-halflings-regular.448c34a5.woff2" />
     <None Include="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
