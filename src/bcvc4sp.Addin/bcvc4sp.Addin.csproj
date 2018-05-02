@@ -42,11 +42,20 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="BrightcoveExperienceWebPart\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="BrightcoveRibbonCustomActions\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="BrightcovePlayerWebPart\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
     <Content Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.Template.xml">
       <DependentUpon>BrightcoveRibbonCustomActions.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\BrightcoveAddinParts\BrightcoveAddinParts.Template.xml">
+      <DependentUpon>BrightcoveAddinParts.feature</DependentUpon>
     </Content>
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
@@ -66,11 +75,20 @@
     <Content Include="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
     <Content Include="Static\media\glyphicons-halflings-regular.f4769f9b.eot" />
     <Content Include="Static\media\glyphicons-halflings-regular.fa277232.woff" />
+    <None Include="BrightcoveExperienceWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ace7d477-2a22-4e09-8cc2-e548ac259bf1}</SharePointProjectItemId>
+    </None>
     <None Include="BrightcoveRibbonCustomActions\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{81e210bf-25e9-4b1c-b8d6-e6af9ab9aaa9}</SharePointProjectItemId>
     </None>
+    <None Include="BrightcovePlayerWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1848911f-42b7-4b54-a3ba-2d0f70ee467a}</SharePointProjectItemId>
+    </None>
     <None Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.feature">
       <FeatureId>{8eadd482-0d19-4916-81fa-4ccaac3ecdad}</FeatureId>
+    </None>
+    <None Include="Features\BrightcoveAddinParts\BrightcoveAddinParts.feature">
+      <FeatureId>{c00501ff-24e0-4328-90af-087fc7866387}</FeatureId>
     </None>
     <None Include="MasterPageGallery\BrightcoveApp.master" />
     <None Include="MasterPageGallery\SharePointProjectItem.spdata">

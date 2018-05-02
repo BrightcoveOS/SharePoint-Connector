@@ -22,6 +22,5 @@
   </RemoteEndpoints>
   <AppPermissionRequests>
     <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Manage" />
-    <AppPermissionRequest Scope="http://sharepoint/taxonomy" Right="Read" />
   </AppPermissionRequests>
 </App>

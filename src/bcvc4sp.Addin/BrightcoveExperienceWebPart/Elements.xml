@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="BrightcoveExperienceWebPart" Title="Brightcove Experience WebPart" Description="Brightcove Web Part to embed an experience onto a web part page." DefaultWidth="640" DefaultHeight="640">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=experience&amp;accountId=_accountId_&amp;experienceId=_experienceId_&amp;experienceOverrideMode=_experienceOverrideMode_&amp;experienceOverrideModeIds=_experienceOverrideModeIds_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>
+      <Property Name="accountId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the account that contains the experience content" WebCategory="Brightcove" />
+      <Property Name="experienceId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the experience to display" WebCategory="Brightcove" />
+      <Property Name="experienceOverrideMode" Type="enum" RequiresDesignerPermission="true" DefaultValue="0" WebDisplayName="Experience override mode" WebCategory="Brightcove">
+        <EnumItems>
+          <EnumItem Value="0" WebDisplayName="Videos" />
+          <EnumItem Value="1" WebDisplayName="Playlist" />
+        </EnumItems>
+      </Property>
+      <Property Name="experienceOverrideModeIds" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="Experience override video/playlist ids" WebCategory="Brightcove" />
+    </Properties>
+
+  </ClientWebPart>
+</Elements>
