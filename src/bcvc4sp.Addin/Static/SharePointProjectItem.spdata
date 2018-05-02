@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
+    <ProjectItemFile Source="css\main.a1d9c6d4.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.a1d9c6d4.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.ebea1058.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.ebea1058.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.54c9d146.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime.54c9d146.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.41167fa3.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.41167fa3.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.448c34a5.woff2" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.89889688.svg" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.e18bbf61.ttf" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.f4769f9b.eot" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.fa277232.woff" Target="Static\media\" Type="ElementFile" />
-    <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
-    <ProjectItemFile Source="css\main.a1d9c6d4.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.a1d9c6d4.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.7eece66a.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.7eece66a.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.e03e84a5.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.86e63af8.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.86e63af8.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.e03e84a5.js" Target="Static\js\" Type="ElementFile" />
   </Files>
 </ProjectItem>
