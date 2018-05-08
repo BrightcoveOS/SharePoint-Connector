@@ -10,6 +10,7 @@
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
     <Properties>
+      <Property Name="pageServerRelativeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The server-relative url of the web part page" WebCategory="Brightcove" />
       <Property Name="accountId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the account that contains the experience content" WebCategory="Brightcove" />
       <Property Name="experienceId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the experience to display" WebCategory="Brightcove" />
       <Property Name="overrideExperienceVideos" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebDisplayName="Indicates if the experience should be overridden" WebCategory="Brightcove" />
