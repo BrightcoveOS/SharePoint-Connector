@@ -6,12 +6,12 @@
     <ProjectItemFile Source="css\main.e5800cc7.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.99ab5a60.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.99ab5a60.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.157fbab1.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.157fbab1.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.9060c0f6.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.9060c0f6.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.150f0cd7.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\vendor.150f0cd7.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.448c34a5.woff2" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.89889688.svg" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.e18bbf61.ttf" Target="Static\media\" Type="ElementFile" />
