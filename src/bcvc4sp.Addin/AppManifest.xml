@@ -3,7 +3,7 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="bcvc4sp"
      ProductID="{ef96a10d-395b-4f52-aa07-98509eee3122}"
-     Version="4.0.0.6"
+     Version="4.0.0.7"
      SharePointMinVersion="15.0.0.0"
 >
   <Properties>
