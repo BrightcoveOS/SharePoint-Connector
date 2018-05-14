@@ -29,7 +29,7 @@
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
     <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-    <script type="text/javascript" src="../static/js/main.419bd4e1.js"></script>
+    <script type="text/javascript" src="../static/js/main.57fb9c59.js"></script>
 
     <!-- Reference to the dev bundle. Uncomment during development. -->
 <%--    <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>
