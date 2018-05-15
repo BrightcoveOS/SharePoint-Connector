@@ -5,7 +5,7 @@
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
          Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
-    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;accountId=_accountId_&amp;playerId=_playerId_&amp;modeId=_modeId_&amp;autoplay=_autoplay_&amp;muted=_muted_&amp;pageServerRelativeUrl=_pageServerRelativeUrl_&amp;brightcovePlayerProps=_brightcovePlayerProps_&amp;customizedEmbedCode=_customizedEmbedCode_" />
+    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;accountId=_accountId_&amp;playerId=_playerId_&amp;modeId=_modeId_&amp;autoplay=_autoplay_&amp;muted=_muted_&amp;pageServerRelativeUrl=_pageServerRelativeUrl_" />
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
@@ -16,8 +16,6 @@
       <Property Name="modeId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the video to display" WebCategory="Brightcove" />
       <Property Name="autoplay" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebDisplayName="Indicates if the video should autoplay" WebCategory="Brightcove" />
       <Property Name="muted" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebDisplayName="Indicates if the video should be muted" WebCategory="Brightcove" />
-      <Property Name="brightcovePlayerProps" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="JSON-Serialized Player Properties" WebCategory="Brightcove Advanced Settings" />
-      <Property Name="customizedEmbedCode" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="Customized Embed Code" WebCategory="Brightcove Advanced Settings" />
     </Properties>
 
   </ClientWebPart>
