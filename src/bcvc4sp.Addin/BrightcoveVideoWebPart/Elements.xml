@@ -22,16 +22,10 @@
           <EnumItem Value="Advanced" WebDisplayName="JavaScript" />
         </EnumItems>
       </Property>
-      <Property Name="embedType" Type="enum" RequiresDesignerPermission="true" DefaultValue="Advanced" WebDisplayName="Player embed type" WebCategory="Brightcove">
-        <EnumItems>
-          <EnumItem Value="Standard" WebDisplayName="iFrame" />
-          <EnumItem Value="Advanced" WebDisplayName="JavaScript" />
-        </EnumItems>
-      </Property>
       <Property Name="sizing" Type="enum" RequiresDesignerPermission="true" DefaultValue="Responsive" WebDisplayName="Player sizing" WebCategory="Brightcove">
         <EnumItems>
-          <EnumItem Value="Fixed" WebDisplayName="iFrame" />
-          <EnumItem Value="Responsive" WebDisplayName="JavaScript" />
+          <EnumItem Value="Fixed" WebDisplayName="Fixed" />
+          <EnumItem Value="Responsive" WebDisplayName="Responsive" />
         </EnumItems>
       </Property>
     </Properties>
