@@ -54,7 +54,7 @@
     <Content Include="BrightcoveVideoWebPart\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
-    <Content Include="BrightcoveExperiementalWebPart\Elements.xml">
+    <Content Include="BrightcoveExperimentalWebPart\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
     <Content Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.Template.xml">
