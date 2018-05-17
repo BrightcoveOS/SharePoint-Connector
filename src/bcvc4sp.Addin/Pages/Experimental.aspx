@@ -23,7 +23,7 @@
         You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
         // Parse the URL parameter
         function getParameterByName(name, url) {
@@ -38,12 +38,14 @@
 
         var contentUrl = getParameterByName('contentUrl');
 
-        $(document).ready(function() {
-            $.ajax({
-                url: contentUrl
-            }).then((data) => {
-                $('#root').html(data);
+        if (contentUrl) {
+            jQuery(document).ready(function() {
+                jQuery.ajax({
+                    url: contentUrl
+                }).then((data) => {
+                    $('#root').html(data);
+                });
             });
-        });
+        }
     </script>
 </asp:Content>
