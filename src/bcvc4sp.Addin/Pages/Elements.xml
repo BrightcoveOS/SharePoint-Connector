@@ -2,6 +2,7 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Pages">
     <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\Experimental.aspx" Url="Pages/Experimental.aspx" ReplaceContent="TRUE" />
     <File Path="Pages\images\favicon-32x32.png" Url="Pages/images/favicon-32x32.png" ReplaceContent="TRUE" />
     <File Path="Pages\images\brightcove-logo-vertical-grey.png" Url="Pages/images/brightcove-logo-vertical-grey.png" ReplaceContent="TRUE" />
   </Module>
