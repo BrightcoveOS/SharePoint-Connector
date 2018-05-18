@@ -5,12 +5,12 @@
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
          Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
-    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;accountId=_accountId_&amp;playerId=_playerId_&amp;modeId=_modeId_&amp;autoplay=_autoplay_&amp;muted=_muted_&amp;embedType=_embedType_&amp;sizing=_sizing_&amp;pageServerRelativeUrl=_pageServerRelativeUrl_" />
+    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;accountId=_accountId_&amp;playerId=_playerId_&amp;modeId=_modeId_&amp;autoplay=_autoplay_&amp;muted=_muted_&amp;embedType=_embedType_&amp;sizing=_sizing_" />
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
     <Properties>
-      <Property Name="pageServerRelativeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The server-relative url of the web part page" WebCategory="Brightcove" />
+      <!-- <Property Name="pageServerRelativeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The server-relative url of the web part page" WebCategory="Brightcove" /> -->
       <Property Name="accountId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the account that contains the video content" WebCategory="Brightcove" />
       <Property Name="playerId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the player to use" WebCategory="Brightcove" />
       <Property Name="modeId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the video to display" WebCategory="Brightcove" />

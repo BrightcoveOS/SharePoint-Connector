@@ -42,7 +42,7 @@
             jQuery(document).ready(function() {
                 jQuery.ajax({
                     url: contentUrl
-                }).then((data) => {
+                }).then(function(data) {
                     $('#root').html(data);
                 });
             });
