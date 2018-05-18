@@ -54,6 +54,7 @@
     <Content Include="BrightcoveVideoWebPart\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
+    <Content Include="BrightcoveWebPartData\Elements.xml" />
     <Content Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.Template.xml">
       <DependentUpon>BrightcoveRibbonCustomActions.feature</DependentUpon>
     </Content>
@@ -67,8 +68,8 @@
     <Content Include="Static\css\main.e5800cc7.css.map" />
     <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\css\vendor.da20cd26.css.map" />
-    <Content Include="Static\js\main.53e1bd7f.js" />
-    <Content Include="Static\js\main.53e1bd7f.js.map" />
+    <Content Include="Static\js\main.f2af498d.js" />
+    <Content Include="Static\js\main.f2af498d.js.map" />
     <Content Include="Static\js\runtime.54c9d146.js" />
     <Content Include="Static\js\runtime.54c9d146.js.map" />
     <Content Include="Static\js\vendor.150f0cd7.js" />
@@ -89,6 +90,9 @@
     </None>
     <None Include="BrightcoveVideoWebPart\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1848911f-42b7-4b54-a3ba-2d0f70ee467a}</SharePointProjectItemId>
+    </None>
+    <None Include="BrightcoveWebPartData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7172cff-8287-48dd-9e0e-978e4416ad7b}</SharePointProjectItemId>
     </None>
     <None Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.feature">
       <FeatureId>{8eadd482-0d19-4916-81fa-4ccaac3ecdad}</FeatureId>

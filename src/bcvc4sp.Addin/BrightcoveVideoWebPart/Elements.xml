@@ -5,29 +5,11 @@
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
          Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
-    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;accountId=_accountId_&amp;playerId=_playerId_&amp;modeId=_modeId_&amp;autoplay=_autoplay_&amp;muted=_muted_&amp;embedType=_embedType_&amp;sizing=_sizing_&amp;embedCodeUrl=_embedCodeUrl_" />
+    <Content Type="html" Src="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;part=video&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;embedCodeUrl=_embedCodeUrl_" />
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
     <Properties>
-      <!-- <Property Name="pageServerRelativeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The server-relative url of the web part page" WebCategory="Brightcove" /> -->
-      <Property Name="accountId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the account that contains the video content" WebCategory="Brightcove" />
-      <Property Name="playerId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the player to use" WebCategory="Brightcove" />
-      <Property Name="modeId" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="The id of the video to display" WebCategory="Brightcove" />
-      <Property Name="autoplay" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebDisplayName="Indicates if the video should autoplay" WebCategory="Brightcove" />
-      <Property Name="muted" Type="boolean" RequiresDesignerPermission="true" DefaultValue="false" WebDisplayName="Indicates if the video should be muted" WebCategory="Brightcove" />
-      <Property Name="embedType" Type="enum" RequiresDesignerPermission="true" DefaultValue="Advanced" WebDisplayName="Player embed Type" WebCategory="Brightcove">
-        <EnumItems>
-          <EnumItem Value="Standard" WebDisplayName="iFrame" />
-          <EnumItem Value="Advanced" WebDisplayName="JavaScript" />
-        </EnumItems>
-      </Property>
-      <Property Name="sizing" Type="enum" RequiresDesignerPermission="true" DefaultValue="Responsive" WebDisplayName="Player sizing" WebCategory="Brightcove">
-        <EnumItems>
-          <EnumItem Value="Fixed" WebDisplayName="Fixed" />
-          <EnumItem Value="Responsive" WebDisplayName="Responsive" />
-        </EnumItems>
-      </Property>
       <Property Name="embedCodeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="Url that will be retrieved and used as the embed code." WebCategory="Brightcove Advanced" />
     </Properties>
 
