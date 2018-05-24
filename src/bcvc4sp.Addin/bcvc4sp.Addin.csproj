@@ -64,12 +64,12 @@
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
     <Content Include="Static\Elements.xml" />
-    <Content Include="Static\css\main.e5800cc7.css" />
-    <Content Include="Static\css\main.e5800cc7.css.map" />
+    <Content Include="Static\css\main.c1b14590.css" />
+    <Content Include="Static\css\main.c1b14590.css.map" />
     <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\css\vendor.da20cd26.css.map" />
-    <Content Include="Static\js\main.12b2bbdd.js" />
-    <Content Include="Static\js\main.12b2bbdd.js.map" />
+    <Content Include="Static\js\main.26036b71.js" />
+    <Content Include="Static\js\main.26036b71.js.map" />
     <Content Include="Static\js\runtime.54c9d146.js" />
     <Content Include="Static\js\runtime.54c9d146.js.map" />
     <Content Include="Static\js\vendor.150f0cd7.js" />
