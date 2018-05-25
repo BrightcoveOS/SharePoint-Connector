@@ -21,7 +21,7 @@
         <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
         <link rel="Stylesheet" type="text/css" href="../static/css/main.c1b14590.css" />
     </head>
-    <body>
+    <body style="overflow-y: hidden">
         <form runat="server">
             <!-- Required to make posts to SP -->
             <SharePoint:FormDigest runat="server" />
@@ -33,7 +33,7 @@
             <div id="root"></div>
             <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
             <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-            <script type="text/javascript" src="../static/js/main.26036b71.js"></script>
+            <script type="text/javascript" src="../static/js/main.f8a769b0.js"></script>
         </form>
     </body>
 </html>
