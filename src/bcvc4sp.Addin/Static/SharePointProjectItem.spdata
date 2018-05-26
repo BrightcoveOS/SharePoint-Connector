@@ -2,12 +2,12 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
-    <ProjectItemFile Source="css\main.c1b14590.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.c1b14590.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.2360f7dd.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.2360f7dd.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.c1a3dea8.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.c1a3dea8.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.255d5961.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.255d5961.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\vendor.150f0cd7.js" Target="Static\js\" Type="ElementFile" />

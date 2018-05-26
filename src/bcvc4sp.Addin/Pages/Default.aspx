@@ -12,7 +12,7 @@
     <meta name="WebPartPageExpansion" content="full" />
     <!-- Reference to the production css bundle. Update the hash after a build. -->
     <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-    <link rel="Stylesheet" type="text/css" href="../static/css/main.c1b14590.css" />
+    <link rel="Stylesheet" type="text/css" href="../static/css/main.2360f7dd.css" />
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -29,5 +29,5 @@
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
     <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-    <script type="text/javascript" src="../static/js/main.c1a3dea8.js"></script>
+    <script type="text/javascript" src="../static/js/main.255d5961.js"></script>
 </asp:Content>
