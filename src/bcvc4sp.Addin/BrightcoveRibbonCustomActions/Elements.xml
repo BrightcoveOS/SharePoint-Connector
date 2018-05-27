@@ -45,7 +45,7 @@
       <CommandUIHandlers>
         <CommandUIHandler
             Command="Invoke_BrightcoveRibbonCustomActions2"
-            CommandAction="~appWebUrl/Pages/Default.aspx?listId={ListId}&amp;selectedListId={SelectedListId}&amp;itemId={ItemId}&amp;selectedItemId={SelectedItemId}"/>
+            CommandAction="~appWebUrl/Pages/AppPartPage.aspx?listId={ListId}&amp;selectedListId={SelectedListId}&amp;itemId={ItemId}&amp;selectedItemId={SelectedItemId}"/>
       </CommandUIHandlers>
     </CommandUIExtension>
   </CustomAction>
@@ -71,7 +71,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcoveVideo"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;mini=videos"/>
+                          CommandAction="~appWebUrl/Pages/AppPartPage.aspx?{StandardTokens}&amp;mini=videos"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
@@ -97,7 +97,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcovePlaylist"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;mini=playlists"/>
+                          CommandAction="~appWebUrl/Pages/AppPartPage.aspx?{StandardTokens}&amp;mini=playlists"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>
@@ -123,7 +123,7 @@
       </CommandUIDefinitions>
       <CommandUIHandlers>
         <CommandUIHandler Command="Invoke_AddBrightcoveExperience"
-                          CommandAction="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;mini=experiences"/>
+                          CommandAction="~appWebUrl/Pages/AppPartPage.aspx?{StandardTokens}&amp;mini=experiences"/>
       </CommandUIHandlers>
     </CommandUIExtension >
   </CustomAction>

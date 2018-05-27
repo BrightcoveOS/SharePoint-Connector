@@ -10,14 +10,13 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
-    <!-- Reference to the production css bundle. Update the hash after a build. -->
-    <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-    <link rel="Stylesheet" type="text/css" href="../static/css/main.2360f7dd.css" />
+    <link rel="Stylesheet" type="text/css" href="http://localhost:3000/static/css/vendor.css" />
+    <link rel="Stylesheet" type="text/css" href="http://localhost:3000/static/css/main.css" />
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Brightcove - Video Connector for SharePoint
+    Brightcove - Video Connector for SharePoint (Dev)
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
@@ -26,8 +25,9 @@
         You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!-- Reference to the production bundle. Update the hashes after a build. -->
-    <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
-    <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-    <script type="text/javascript" src="../static/js/main.255d5961.js"></script>
+
+    <!-- Reference to the dev bundle. Uncomment during development. -->
+    <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>
+    <script type="text/javascript" src="http://localhost:3000/static/js/vendor.js"></script>
+    <script type="text/javascript" src="http://localhost:3000/static/js/main.js"></script>
 </asp:Content>
