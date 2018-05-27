@@ -29,5 +29,5 @@
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
     <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-    <script type="text/javascript" src="../static/js/main.fccecf88.js"></script>
+    <script type="text/javascript" src="../static/js/main.f3a45767.js"></script>
 </asp:Content>
