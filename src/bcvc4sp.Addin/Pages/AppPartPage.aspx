@@ -17,10 +17,11 @@
         <script src="/_layouts/15/sp.core.js"></script>
         <script src="/_layouts/15/sp.runtime.js"></script>
         <script src="/_layouts/15/sp.js"></script>
-        <link rel="Stylesheet" type="text/css" href="http://localhost:3000/static/css/vendor.css" />
-        <link rel="Stylesheet" type="text/css" href="http://localhost:3000/static/css/main.css" />
+        <!-- Reference to the production css bundle. Update the hash after a build. -->
+        <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
+        <link rel="Stylesheet" type="text/css" href="../static/css/main.2360f7dd.css" />
     </head>
-    <body>
+    <body style="overflow-y: hidden">
         <form runat="server">
             <!-- Required to make posts to SP -->
             <SharePoint:FormDigest runat="server" />
@@ -29,10 +30,10 @@
             <noscript>
                 You need to enable JavaScript to run this app.
             </noscript>
-            <div id="root"></div>            
-            <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>
-            <script type="text/javascript" src="http://localhost:3000/static/js/vendor.js"></script>
-            <script type="text/javascript" src="http://localhost:3000/static/js/main.js"></script>
+            <div id="root"></div>
+            <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
+            <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
+            <script type="text/javascript" src="../static/js/main.db21b054.js"></script>
         </form>
     </body>
 </html>
