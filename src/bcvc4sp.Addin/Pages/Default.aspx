@@ -28,6 +28,6 @@
     <div id="root"></div>
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
-    <script type="text/javascript" src="../static/js/vendor.150f0cd7.js"></script>
-    <script type="text/javascript" src="../static/js/main.db21b054.js"></script>
+    <script type="text/javascript" src="../static/js/vendor.b9ff0093.js"></script>
+    <script type="text/javascript" src="../static/js/main.013687bd.js"></script>
 </asp:Content>
