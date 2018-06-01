@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ClientWebPart Name="BrightcoveVideoWebPart" Title="Brightcove Video WebPart" Description="Brightcove Web Part to embed video content onto a web part page." DefaultWidth="640" DefaultHeight="640">
+  <ClientWebPart Name="BrightcoveVideo" Title="Brightcove Video" Description="Adds a Brightcove Video onto classic and modern pages." DefaultWidth="640" DefaultHeight="640">
 
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
