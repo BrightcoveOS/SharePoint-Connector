@@ -9,9 +9,7 @@
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
-    <Properties>
-      <Property Name="embedCodeUrl" Type="string" RequiresDesignerPermission="true" DefaultValue="" WebDisplayName="Url that will be retrieved and used as the embed code." WebCategory="Brightcove Advanced" />
-    </Properties>
+    <Properties/>
 
   </ClientWebPart>
 </Elements>
