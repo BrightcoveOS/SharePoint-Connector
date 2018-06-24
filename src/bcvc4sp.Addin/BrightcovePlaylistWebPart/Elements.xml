@@ -5,7 +5,7 @@
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_
          Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
-    <Content Type="html" Src="~appWebUrl/Pages/AppPartPage.aspx?{StandardTokens}&amp;part=playlist&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_&amp;embedCodeUrl=_embedCodeUrl_" />
+    <Content Type="html" Src="~appWebUrl/Pages/AppPartPage.aspx?{StandardTokens}&amp;part=playlist&amp;IsDlg=1&amp;wpId=_WPID_&amp;wpq=_WPQ_&amp;editmode=_editMode_" />
 
     <!-- Define properties in the Properties element.
          Remember to put Property Name on the Src attribute of the Content element above. -->
