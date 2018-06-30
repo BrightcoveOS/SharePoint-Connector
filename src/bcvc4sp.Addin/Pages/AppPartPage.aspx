@@ -19,7 +19,7 @@
         <script src="/_layouts/15/sp.js"></script>
         <!-- Reference to the production css bundle. Update the hash after a build. -->
         <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-        <link rel="Stylesheet" type="text/css" href="../static/css/main.f7b7558e.css" />
+        <link rel="Stylesheet" type="text/css" href="../static/css/main.a0580e29.css" />
     </head>
     <body style="overflow-y: hidden">
         <form runat="server">
@@ -33,7 +33,7 @@
             <div id="root"></div>
             <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
             <script type="text/javascript" src="../static/js/vendor.b9ff0093.js"></script>
-            <script type="text/javascript" src="../static/js/main.3bb1791f.js"></script>
+            <script type="text/javascript" src="../static/js/main.c122f446.js"></script>
         </form>
     </body>
 </html>
