@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web.Http;
-using System.Web.Http.Cors;
-
-namespace Akumina.Proxy.Controllers
+﻿namespace Akumina.Proxy.Controllers
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Threading.Tasks;
+    using System.Web.Http;
+
     public class AuthController : ApiController
     {
         // GET api/auth
@@ -36,8 +33,8 @@ namespace Akumina.Proxy.Controllers
             if (System.Web.HttpContext.Current.Request.ServerVariables["http_host"] != redurectUri.DnsSafeHost + ":" + redurectUri.Port)
             {
 
-                string clientId = (System.Web.HttpContext.Current.Request.Form["client_id"] != null ? System.Web.HttpContext.Current.Request.Form["client_id"] : "");
-                string clientSecret = (System.Web.HttpContext.Current.Request.Form["client_secret"] != null ? System.Web.HttpContext.Current.Request.Form["client_secret"] : "");
+                string clientId = (System.Web.HttpContext.Current.Request.Form["client_id"] ?? "");
+                string clientSecret = (System.Web.HttpContext.Current.Request.Form["client_secret"] ?? "");
 
                 if (!string.IsNullOrEmpty(clientId) && !string.IsNullOrEmpty(clientSecret))
                 {
@@ -75,7 +72,7 @@ namespace Akumina.Proxy.Controllers
         private string EncodeTo64(string toEncode)
         {
             byte[] toEncodeAsBytes
-                  = System.Text.ASCIIEncoding.ASCII.GetBytes(toEncode);
+                  = System.Text.Encoding.ASCII.GetBytes(toEncode);
             string returnValue
                   = System.Convert.ToBase64String(toEncodeAsBytes);
             return returnValue;
@@ -87,9 +84,10 @@ namespace Akumina.Proxy.Controllers
     {
         public static HttpRequestMessage Clone(this HttpRequestMessage req, string newUri)
         {
-            HttpRequestMessage clone = new HttpRequestMessage(req.Method, newUri);
-
-            clone.Version = req.Version;
+            HttpRequestMessage clone = new HttpRequestMessage(req.Method, newUri)
+            {
+                Version = req.Version
+            };
 
             if (req.Method != HttpMethod.Get)
             {
