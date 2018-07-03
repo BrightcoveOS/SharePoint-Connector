@@ -10,14 +10,12 @@
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
     <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
-    <!-- Reference to the production css bundle. Update the hash after a build. -->
-    <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-    <link rel="Stylesheet" type="text/css" href="../static/css/main.a0580e29.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Brightcove - Video Connector for SharePoint
+    Brightcove - Experimental
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
@@ -26,8 +24,28 @@
         You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!-- Reference to the production bundle. Update the hashes after a build. -->
-    <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
-    <script type="text/javascript" src="../static/js/vendor.b9ff0093.js"></script>
-    <script type="text/javascript" src="../static/js/main.c122f446.js"></script>
+    <script>
+        // Parse the URL parameter
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var contentUrl = getParameterByName('contentUrl');
+
+        if (contentUrl) {
+            jQuery(document).ready(function() {
+                jQuery.ajax({
+                    url: contentUrl
+                }).then(function(data) {
+                    $('#root').html(data);
+                });
+            });
+        }
+    </script>
 </asp:Content>

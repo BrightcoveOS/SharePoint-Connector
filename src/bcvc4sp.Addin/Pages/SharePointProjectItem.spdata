@@ -3,6 +3,8 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
     <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="AppPartPage.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Experimental.aspx" Target="Pages\" Type="ElementFile" />
     <ProjectItemFile Source="images\favicon-32x32.png" Target="Pages\images\" Type="ElementFile" />
     <ProjectItemFile Source="images\brightcove-logo-vertical-grey.png" Target="Pages\images\" Type="ElementFile" />
   </Files>
