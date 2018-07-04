@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.Addin", "src\bcvc4s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9BA962A6-9D77-4059-AEE7-3F90AE659252}"
 	ProjectSection(SolutionItems) = preProject
-		LICENSE. = LICENSE.
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bcvc4sp.ProxyAzureFunction", "src\bcvc4sp.ProxyAzureFunction\bcvc4sp.ProxyAzureFunction.csproj", "{8FEBA3E2-FE24-4BFF-ADDB-C50D286E5E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{5959D92C-2CCF-4765-9EAB-1E800DB97C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5959D92C-2CCF-4765-9EAB-1E800DB97C25}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5959D92C-2CCF-4765-9EAB-1E800DB97C25}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8FEBA3E2-FE24-4BFF-ADDB-C50D286E5E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEBA3E2-FE24-4BFF-ADDB-C50D286E5E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEBA3E2-FE24-4BFF-ADDB-C50D286E5E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEBA3E2-FE24-4BFF-ADDB-C50D286E5E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
