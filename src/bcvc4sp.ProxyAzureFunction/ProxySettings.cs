@@ -3,13 +3,15 @@
     using Microsoft.Extensions.Configuration;
     using System;
     using System.Collections.Generic;
-    using System.IO;
     using System.Linq;
 
     public sealed class ProxySettings
     {
-        private static IConfiguration s_configuration;
-        private static object s_syncRoot = new object();
+        public ProxySettings()
+        {
+
+            GrantType = "client_credentials";
+        }
 
         public string ClientId
         {
@@ -18,6 +20,12 @@
         }
 
         public string ClientSecret
+        {
+            get;
+            set;
+        }
+
+        public string GrantType
         {
             get;
             set;
@@ -39,31 +47,21 @@
         /// Returns a proxy settings object by using configuration.
         /// </summary>
         /// <returns></returns>
-        public static ProxySettings GetProxySettings()
+        public static ProxySettings GetProxySettings(IConfiguration configuration)
         {
-            if (s_configuration == null)
+            if (configuration == null)
             {
-                lock(s_syncRoot)
-                {
-                    if (s_configuration == null)
-                    {
-                        var builder = new ConfigurationBuilder()
-                           .SetBasePath(Directory.GetCurrentDirectory())
-                           .AddEnvironmentVariables();
-                           //.AddJsonFile("proxyDefaults.json");
-                        s_configuration = builder.Build();
-                    }
-                }
-               
+                throw new ArgumentNullException(nameof(configuration));
             }
 
             var proxySettings = new ProxySettings
             {
-                ClientId = s_configuration["BC_ClientId"],
-                ClientSecret = s_configuration["BC_ClientSecret"],
+                ClientId = configuration["BC_ClientId"],
+                ClientSecret = configuration["BC_ClientSecret"],
+                GrantType = configuration["BC_GrantType"],
             };
 
-            var origins = s_configuration["BC_Origins"];
+            var origins = configuration["BC_Origins"];
             if (!string.IsNullOrWhiteSpace(origins))
             {
                 var arrOrigins = origins.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
@@ -74,7 +72,7 @@
                 proxySettings.AllowedOrigins = null;
             }
 
-            if (int.TryParse(s_configuration["BC_RequestTimeout"], out int requestTimeout))
+            if (int.TryParse(configuration["BC_RequestTimeout"], out int requestTimeout))
             {
                 proxySettings.RequestTimeout = requestTimeout;
             }
