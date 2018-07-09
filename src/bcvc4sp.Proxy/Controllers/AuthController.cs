@@ -5,8 +5,9 @@
     using System.Net.Http;
     using System.Threading.Tasks;
     using System.Web.Http;
+    using System.Web.Http.Cors;
 
-    public class AuthController : ApiController
+    public sealed class AuthController : ApiController
     {
         // GET api/auth
         public HttpResponseMessage Get()
@@ -15,7 +16,7 @@
         }
 
         // POST api/auth
-        [System.Web.Http.HttpPost]
+        [HttpPost]
         public HttpResponseMessage Post()
         {
             return GetRequest(Request);
@@ -26,7 +27,7 @@
             HttpResponseMessage result = request.CreateResponse();
             string requestUrl = request.RequestUri.AbsoluteUri;
             string requestPathAndQuery = request.RequestUri.PathAndQuery.Substring("/api/auth".Length);
-            string redirectUri = "https://oauth.brightcove.com/v3/access_token";
+            string redirectUri = "https://oauth.brightcove.com/v4/access_token";
             
             Uri redurectUri = new Uri(redirectUri);
 
@@ -43,17 +44,23 @@
                     HttpRequestMessage forwardRequest = request.Clone(redirectUri);
                     
                     forwardRequest.Headers.Add("Authorization", "Basic " + auth_string);
-                    // forwardRequest.Headers.Add("Content-Type", "application/x-www-form-urlencoded");
 
                     HttpClient client = new HttpClient();
                     Task<HttpResponseMessage> response = client.SendAsync(forwardRequest);
                     Task.WaitAll(new Task[] { response });
 
+                    var corsRequest = request.GetCorsRequestContext();
+                    var corsOrigin = GlobalEnableCorsAttribute.AllowedCorsOrigin(corsRequest.Origin);
+                    response.Result.Headers.Remove("access-control-allow-origin");
+
+                    if (!String.IsNullOrWhiteSpace(corsOrigin))
+                    {
+                        response.Result.Headers.Add("access-control-allow-origin", corsOrigin);
+                    }
+
                     if (request.Method == HttpMethod.Post)
                     {
                         string existing = response.Result.Content.ReadAsStringAsync().Result.ToString();
-                        //string listener = "<script>parent.postMessage('" + existing + "', \"" + request.RequestUri.Scheme + "://" + request.Headers.Referrer.DnsSafeHost + "\");</script>";
-                        //response.Result.Content = new StringContent("<html><head>" + listener + "</head><body>" + existing + "</body>");
                         response.Result.Content = new StringContent(existing);
                         result = response.Result;
                         result.Content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("text/html");
