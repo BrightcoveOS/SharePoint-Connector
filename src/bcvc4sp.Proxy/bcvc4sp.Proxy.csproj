@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\brightcove-proxy-classic - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
