@@ -97,9 +97,9 @@ namespace bcvc4sp.ProxyAzureFunction
                     return result;
                 }
 
-                settings.ClientId = form[ClientIdPropertyName] ?? settings.ClientId;
-                settings.ClientSecret = form[ClientSecretPropertyName] ?? settings.ClientSecret;
-                settings.GrantType = form[GrantTypePropertyName] ?? settings.GrantType;
+                settings.ClientId = String.IsNullOrWhiteSpace(settings.ClientId) ? form[ClientIdPropertyName] : settings.ClientId;
+                settings.ClientSecret = String.IsNullOrWhiteSpace(settings.ClientSecret) ? form[ClientSecretPropertyName] : settings.ClientSecret;
+                settings.GrantType = String.IsNullOrWhiteSpace(settings.GrantType) ? form[GrantTypePropertyName] : settings.GrantType;
             }
             else if (request.Content.IsJsonData())
             {
@@ -111,9 +111,10 @@ namespace bcvc4sp.ProxyAzureFunction
                     return result;
                 }
 
-                settings.ClientId = json[ClientIdPropertyName] ?? settings.ClientId;
-                settings.ClientSecret = json[ClientSecretPropertyName] ?? settings.ClientSecret;
-                settings.GrantType = json[GrantTypePropertyName] ?? settings.GrantType;
+                
+                settings.ClientId = String.IsNullOrWhiteSpace(settings.ClientId) ? json[ClientIdPropertyName] : settings.ClientId;
+                settings.ClientSecret = String.IsNullOrWhiteSpace(settings.ClientSecret) ? json[ClientSecretPropertyName] : settings.ClientSecret;
+                settings.GrantType = String.IsNullOrWhiteSpace(settings.GrantType) ? json[GrantTypePropertyName] : settings.GrantType;
             }
             else
             {
