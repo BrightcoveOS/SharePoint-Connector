@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Static">
-    <File Path="Static\css\main.a1d9c6d4.css" Url="Static/css/main.a1d9c6d4.css" ReplaceContent="TRUE" />
-    <File Path="Static\css\main.a1d9c6d4.css.map" Url="Static/css/main.a1d9c6d4.css.map" ReplaceContent="TRUE" />
+    <File Path="Static\css\main.a0580e29.css" Url="Static/css/main.a0580e29.css" ReplaceContent="TRUE" />
+    <File Path="Static\css\main.a0580e29.css.map" Url="Static/css/main.a0580e29.css.map" ReplaceContent="TRUE" />
     <File Path="Static\css\vendor.da20cd26.css" Url="Static/css/vendor.da20cd26.css" ReplaceContent="TRUE" />
     <File Path="Static\css\vendor.da20cd26.css.map" Url="Static/css/vendor.da20cd26.css.map" ReplaceContent="TRUE" />
-    <File Path="Static\js\main.e76d26f0.js" Url="Static/js/main.e76d26f0.js" ReplaceContent="TRUE" />
-    <File Path="Static\js\main.e76d26f0.js.map" Url="Static/js/main.e76d26f0.js.map" ReplaceContent="TRUE" />
+    <File Path="Static\js\main.46ab4064.js" Url="Static/js/main.46ab4064.js" ReplaceContent="TRUE" />
+    <File Path="Static\js\main.46ab4064.js.map" Url="Static/js/main.46ab4064.js.map" ReplaceContent="TRUE" />
     <File Path="Static\js\runtime.54c9d146.js" Url="Static/js/runtime.54c9d146.js" ReplaceContent="TRUE" />
     <File Path="Static\js\runtime.54c9d146.js.map" Url="Static/js/runtime.54c9d146.js.map" ReplaceContent="TRUE" />
-    <File Path="Static\js\vendor.41167fa3.js" Url="Static/js/vendor.41167fa3.js" ReplaceContent="TRUE" />
-    <File Path="Static\js\vendor.41167fa3.js.map" Url="Static/js/vendor.41167fa3.js.map" ReplaceContent="TRUE" />
+    <File Path="Static\js\vendor.b9ff0093.js" Url="Static/js/vendor.b9ff0093.js" ReplaceContent="TRUE" />
+    <File Path="Static\js\vendor.b9ff0093.js.map" Url="Static/js/vendor.b9ff0093.js.map" ReplaceContent="TRUE" />
     <File Path="Static\media\glyphicons-halflings-regular.448c34a5.woff2" Url="Static/media/glyphicons-halflings-regular.448c34a5.woff2" ReplaceContent="TRUE" />
     <File Path="Static\media\glyphicons-halflings-regular.89889688.svg" Url="Static/media/glyphicons-halflings-regular.89889688.svg" ReplaceContent="TRUE" />
     <File Path="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" Url="Static/media/glyphicons-halflings-regular.e18bbf61.ttf" ReplaceContent="TRUE" />

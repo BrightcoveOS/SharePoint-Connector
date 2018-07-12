@@ -42,35 +42,67 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="BrightcoveExperienceWebPart\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="BrightcoveRibbonCustomActions\Elements.xml">
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
     </Content>
+    <Content Include="BrightcovePlaylistWebPart\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="BrightcoveVideoWebPart\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="BrightcoveSettings\Elements.xml" />
+    <Content Include="BrightcoveWebPartData\Elements.xml" />
     <Content Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.Template.xml">
       <DependentUpon>BrightcoveRibbonCustomActions.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\BrightcoveAddinParts\BrightcoveAddinParts.Template.xml">
+      <DependentUpon>BrightcoveAddinParts.feature</DependentUpon>
     </Content>
     <Content Include="Pages\images\brightcove-logo-vertical-grey.png" />
     <Content Include="Pages\images\favicon-32x32.png" />
     <Content Include="Static\Elements.xml" />
-    <Content Include="Static\css\main.a1d9c6d4.css" />
-    <Content Include="Static\css\main.a1d9c6d4.css.map" />
+    <Content Include="Static\css\main.a0580e29.css" />
+    <Content Include="Static\css\main.a0580e29.css.map" />
     <Content Include="Static\css\vendor.da20cd26.css" />
     <Content Include="Static\css\vendor.da20cd26.css.map" />
-    <Content Include="Static\js\main.e76d26f0.js" />
-    <Content Include="Static\js\main.e76d26f0.js.map" />
+    <Content Include="Static\js\main.46ab4064.js" />
+    <Content Include="Static\js\main.46ab4064.js.map" />
     <Content Include="Static\js\runtime.54c9d146.js" />
     <Content Include="Static\js\runtime.54c9d146.js.map" />
-    <Content Include="Static\js\vendor.41167fa3.js" />
-    <Content Include="Static\js\vendor.41167fa3.js.map" />
+    <Content Include="Static\js\vendor.b9ff0093.js" />
+    <Content Include="Static\js\vendor.b9ff0093.js.map" />
     <Content Include="Static\media\glyphicons-halflings-regular.448c34a5.woff2" />
     <Content Include="Static\media\glyphicons-halflings-regular.89889688.svg" />
     <Content Include="Static\media\glyphicons-halflings-regular.e18bbf61.ttf" />
     <Content Include="Static\media\glyphicons-halflings-regular.f4769f9b.eot" />
     <Content Include="Static\media\glyphicons-halflings-regular.fa277232.woff" />
+    <None Include="BrightcoveExperienceWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ace7d477-2a22-4e09-8cc2-e548ac259bf1}</SharePointProjectItemId>
+    </None>
     <None Include="BrightcoveRibbonCustomActions\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{81e210bf-25e9-4b1c-b8d6-e6af9ab9aaa9}</SharePointProjectItemId>
     </None>
+    <None Include="BrightcovePlaylistWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7bedb375-5612-42a7-b341-b2d936ca80cb}</SharePointProjectItemId>
+    </None>
+    <None Include="BrightcoveVideoWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1848911f-42b7-4b54-a3ba-2d0f70ee467a}</SharePointProjectItemId>
+    </None>
+    <None Include="BrightcoveSettings\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9ef0eb52-1433-4306-ad58-aaca16cc1471}</SharePointProjectItemId>
+    </None>
+    <None Include="BrightcoveWebPartData\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7172cff-8287-48dd-9e0e-978e4416ad7b}</SharePointProjectItemId>
+    </None>
     <None Include="Features\BrightcoveRibbonCustomActions\BrightcoveRibbonCustomActions.feature">
       <FeatureId>{8eadd482-0d19-4916-81fa-4ccaac3ecdad}</FeatureId>
+    </None>
+    <None Include="Features\BrightcoveAddinParts\BrightcoveAddinParts.feature">
+      <FeatureId>{c00501ff-24e0-4328-90af-087fc7866387}</FeatureId>
     </None>
     <None Include="MasterPageGallery\BrightcoveApp.master" />
     <None Include="MasterPageGallery\SharePointProjectItem.spdata">
@@ -82,6 +114,8 @@
     <Content Include="MasterPageGallery\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\AppPartPage.aspx" />
+    <Content Include="Pages\Experimental.aspx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Static\SharePointProjectItem.spdata">

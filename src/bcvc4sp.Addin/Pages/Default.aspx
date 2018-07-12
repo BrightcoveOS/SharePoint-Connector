@@ -12,7 +12,7 @@
     <meta name="WebPartPageExpansion" content="full" />
     <!-- Reference to the production css bundle. Update the hash after a build. -->
     <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-    <link rel="Stylesheet" type="text/css" href="../static/css/main.a1d9c6d4.css" />
+    <link rel="Stylesheet" type="text/css" href="../static/css/main.a0580e29.css" />
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -28,11 +28,6 @@
     <div id="root"></div>
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
-    <script type="text/javascript" src="../static/js/vendor.41167fa3.js"></script>
-    <script type="text/javascript" src="../static/js/main.e76d26f0.js"></script>
-
-    <!-- Reference to the dev bundle. Uncomment during development. -->
-<%--    <script type="text/javascript" src="http://localhost:3000/static/js/runtime.js"></script>
-    <script type="text/javascript" src="http://localhost:3000/static/js/vendor.js"></script>
-    <script type="text/javascript" src="http://localhost:3000/static/js/main.js"></script>--%>
+    <script type="text/javascript" src="../static/js/vendor.b9ff0093.js"></script>
+    <script type="text/javascript" src="../static/js/main.46ab4064.js"></script>
 </asp:Content>
