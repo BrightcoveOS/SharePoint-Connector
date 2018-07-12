@@ -6,8 +6,8 @@
     <ProjectItemFile Source="css\main.a0580e29.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.0e865e35.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.0e865e35.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.46ab4064.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.46ab4064.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime.54c9d146.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\vendor.b9ff0093.js" Target="Static\js\" Type="ElementFile" />
