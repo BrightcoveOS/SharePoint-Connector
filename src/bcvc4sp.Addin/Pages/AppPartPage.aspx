@@ -18,8 +18,9 @@
         <script src="/_layouts/15/sp.runtime.js"></script>
         <script src="/_layouts/15/sp.js"></script>
         <!-- Reference to the production css bundle. Update the hash after a build. -->
-        <link rel="Stylesheet" type="text/css" href="../static/css/vendor.da20cd26.css" />
-        <link rel="Stylesheet" type="text/css" href="../static/css/main.a0580e29.css" />
+        <link rel="Stylesheet" type="text/css" href="" />
+        <link rel="Stylesheet" type="text/css" href="../static/css/main.b91da288.chunk.css" />
+        <link rel="Stylesheet" type="text/css" href="../static/css/2.42178c37.chunk.css" />
     </head>
     <body style="overflow-y: hidden">
         <form runat="server">
@@ -31,9 +32,10 @@
                 You need to enable JavaScript to run this app.
             </noscript>
             <div id="root"></div>
-            <script type="text/javascript" src="../static/js/runtime.54c9d146.js"></script>
-            <script type="text/javascript" src="../static/js/vendor.b9ff0093.js"></script>
-            <script type="text/javascript" src="../static/js/main.46ab4064.js"></script>
+            <script type="text/javascript" src="../static/js/runtime-main.ee88d981.js"></script>
+            <script type="text/javascript" src=""></script>
+            <script type="text/javascript" src="../static/js/main.2f0211ae.chunk.js"></script>
+            <script type="text/javascript" src="../static/js/2.8ae2058c.chunk.js"></script>
         </form>
     </body>
 </html>

@@ -2,16 +2,16 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Static\" Type="ElementManifest" />
-    <ProjectItemFile Source="css\main.a0580e29.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\main.a0580e29.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="css\vendor.da20cd26.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.46ab4064.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.46ab4064.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.54c9d146.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\runtime.54c9d146.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.b9ff0093.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\vendor.b9ff0093.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="css\2.42178c37.chunk.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\2.42178c37.chunk.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.b91da288.chunk.css" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\main.b91da288.chunk.css.map" Target="Static\css\" Type="ElementFile" />
+    <ProjectItemFile Source="js\2.8ae2058c.chunk.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\2.8ae2058c.chunk.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.2f0211ae.chunk.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.2f0211ae.chunk.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime-main.ee88d981.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\runtime-main.ee88d981.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.448c34a5.woff2" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.89889688.svg" Target="Static\media\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.e18bbf61.ttf" Target="Static\media\" Type="ElementFile" />
