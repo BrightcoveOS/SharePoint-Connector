@@ -69,10 +69,10 @@
     <Content Include="Static\css\2.42178c37.chunk.css.map" />
     <Content Include="Static\css\main.b91da288.chunk.css" />
     <Content Include="Static\css\main.b91da288.chunk.css.map" />
-    <Content Include="Static\js\2.8ae2058c.chunk.js" />
-    <Content Include="Static\js\2.8ae2058c.chunk.js.map" />
-    <Content Include="Static\js\main.2f0211ae.chunk.js" />
-    <Content Include="Static\js\main.2f0211ae.chunk.js.map" />
+    <Content Include="Static\js\2.ad32bcb0.chunk.js" />
+    <Content Include="Static\js\2.ad32bcb0.chunk.js.map" />
+    <Content Include="Static\js\main.d64f863f.chunk.js" />
+    <Content Include="Static\js\main.d64f863f.chunk.js.map" />
     <Content Include="Static\js\runtime-main.ee88d981.js" />
     <Content Include="Static\js\runtime-main.ee88d981.js.map" />
     <Content Include="Static\media\glyphicons-halflings-regular.448c34a5.woff2" />
