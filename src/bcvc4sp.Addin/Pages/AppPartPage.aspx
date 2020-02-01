@@ -34,8 +34,8 @@
             <div id="root"></div>
             <script type="text/javascript" src="../static/js/runtime-main.ee88d981.js"></script>
             <script type="text/javascript" src=""></script>
-            <script type="text/javascript" src="../static/js/main.82a310d6.chunk.js"></script>
-            <script type="text/javascript" src="../static/js/2.767a5e04.chunk.js"></script>
+            <script type="text/javascript" src="../static/js/main.dbb44e01.chunk.js"></script>
+            <script type="text/javascript" src="../static/js/2.60647eef.chunk.js"></script>
         </form>
     </body>
 </html>
