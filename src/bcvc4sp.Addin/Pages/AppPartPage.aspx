@@ -10,6 +10,7 @@
     <head>
         <title></title>
         <meta name="WebPartPageExpansion" content="full" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <!-- SP References -->
         <script src="/_layouts/1033/init.js"></script>
@@ -19,7 +20,7 @@
         <script src="/_layouts/15/sp.js"></script>
         <!-- Reference to the production css bundle. Update the hash after a build. -->
         <link rel="Stylesheet" type="text/css" href="" />
-        <link rel="Stylesheet" type="text/css" href="../static/css/main.b91da288.chunk.css" />
+        <link rel="Stylesheet" type="text/css" href="../static/css/main.169a7181.chunk.css" />
         <link rel="Stylesheet" type="text/css" href="../static/css/2.42178c37.chunk.css" />
     </head>
     <body style="overflow-y: hidden">
@@ -34,8 +35,8 @@
             <div id="root"></div>
             <script type="text/javascript" src="../static/js/runtime-main.ee88d981.js"></script>
             <script type="text/javascript" src=""></script>
-            <script type="text/javascript" src="../static/js/main.dbb44e01.chunk.js"></script>
-            <script type="text/javascript" src="../static/js/2.60647eef.chunk.js"></script>
+            <script type="text/javascript" src="../static/js/main.55fda304.chunk.js"></script>
+            <script type="text/javascript" src="../static/js/2.30c100d1.chunk.js"></script>
         </form>
     </body>
 </html>
