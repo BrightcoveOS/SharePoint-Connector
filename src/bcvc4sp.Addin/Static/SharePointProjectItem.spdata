@@ -6,10 +6,10 @@
     <ProjectItemFile Source="css\2.42178c37.chunk.css.map" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\main.169a7181.chunk.css" Target="Static\css\" Type="ElementFile" />
     <ProjectItemFile Source="css\main.169a7181.chunk.css.map" Target="Static\css\" Type="ElementFile" />
-    <ProjectItemFile Source="js\2.30c100d1.chunk.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\2.30c100d1.chunk.js.map" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.55fda304.chunk.js" Target="Static\js\" Type="ElementFile" />
-    <ProjectItemFile Source="js\main.55fda304.chunk.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\2.3d991def.chunk.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\2.3d991def.chunk.js.map" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.54fb4db4.chunk.js" Target="Static\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\main.54fb4db4.chunk.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime-main.ee88d981.js" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="js\runtime-main.ee88d981.js.map" Target="Static\js\" Type="ElementFile" />
     <ProjectItemFile Source="media\glyphicons-halflings-regular.448c34a5.woff2" Target="Static\media\" Type="ElementFile" />
