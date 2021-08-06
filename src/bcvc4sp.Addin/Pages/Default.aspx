@@ -30,6 +30,6 @@
     <!-- Reference to the production bundle. Update the hashes after a build. -->
     <script type="text/javascript" src="../static/js/runtime-main.ee88d981.js"></script>
     <script type="text/javascript" src=""></script>
-    <script type="text/javascript" src="../static/js/main.b637b10b.chunk.js"></script>
-    <script type="text/javascript" src="../static/js/2.6937213f.chunk.js"></script>
+    <script type="text/javascript" src="../static/js/main.8f7a4d34.chunk.js"></script>
+    <script type="text/javascript" src="../static/js/2.002fdf01.chunk.js"></script>
 </asp:Content>
